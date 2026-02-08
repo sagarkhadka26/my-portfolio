@@ -1,0 +1,198 @@
+/* ========================================
+   Base Styles - Reset, Fonts, Variables
+   ======================================== */
+
+/* CSS Custom Properties */
+:root {
+  --bg-cream: #FDF5E4;
+  --text-dark: #1a1a1a;
+  --text-light: #666666;
+  --white: #ffffff;
+  --black: #000000;
+
+  /* Project card colors */
+  --card-cyan: #98EDF2;
+  --card-peach: #F2CD98;
+  --card-yellow: #F2E298;
+  --card-pink: #F298BC;
+  --card-purple: #A198F2;
+  --card-green: #B0F298;
+
+  /* Typography */
+  --font-main: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --letter-spacing: -0.05em;
+
+  /* Spacing */
+  --container-padding: 100px;
+  --section-gap: 100px;
+
+  /* Transitions */
+  --transition-fast: 0.2s ease;
+  --transition-medium: 0.3s ease;
+  --transition-slow: 0.5s ease;
+}
+
+/* Reset */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Inter Font Import */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+html {
+  scroll-behavior: smooth;
+  cursor: none;
+}
+
+body {
+  font-family: var(--font-main);
+  letter-spacing: var(--letter-spacing);
+  background-color: var(--bg-cream);
+  color: var(--text-dark);
+  line-height: 1.6;
+  overflow-x: hidden;
+  cursor: url('../assets/images/main-cursor.png'), auto;
+}
+
+/* Native cursor for interactive elements */
+/* Hide default cursor on all elements */
+*,
+*::before,
+*::after {
+  cursor: none !important;
+}
+
+/* Native cursor for interactive elements - use pointer image */
+a,
+button,
+[role="button"],
+input,
+textarea,
+select {
+  cursor: none !important;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+button {
+  font-family: inherit;
+  letter-spacing: inherit;
+  border: none;
+  background: none;
+}
+
+/* Custom Cursor Styles */
+.custom-cursor {
+  width: 38px;
+  height: 38px;
+  position: fixed;
+  pointer-events: none;
+  z-index: 10000;
+  background-image: url('../assets/images/main-cursor.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: transform 0.15s ease;
+}
+
+/* Hover state - switch to pointer cursor */
+.custom-cursor.hover {
+  background-image: url('../assets/images/cursor-pointer.cur') !important;
+  transform: scale(1.2);
+}
+
+/* Clicking state */
+.custom-cursor.clicking {
+  transform: scale(0.9);
+}
+
+/* Hide the cursor dot - we don't need it with custom images */
+.cursor-dot {
+  display: none !important;
+}
+
+/* Sparkle canvas */
+#sparkle-canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 9999;
+}
+
+/* Typography */
+h1 {
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+h2 {
+  font-size: clamp(1.8rem, 3vw, 2.5rem);
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+h3 {
+  font-size: clamp(1.2rem, 2vw, 1.5rem);
+  font-weight: 500;
+}
+
+p {
+  font-size: 1rem;
+  color: var(--text-light);
+}
+
+/* Container */
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 var(--container-padding);
+}
+
+@media (max-width: 768px) {
+  :root {
+    --container-padding: 24px;
+    --section-gap: 60px;
+  }
+}
+
+/* Utility Classes */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* Selection */
+::selection {
+  background-color: var(--black);
+  color: var(--white);
+}

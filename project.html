@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Project details by Sagar Kumar Khadka - UI/UX Designer">
+    <title>Project | Sagar Kumar Khadka</title>
+
+    <link rel="icon" type="image/svg+xml" href="/assets/images/logo.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="/css/base.css">
+    <link rel="stylesheet" href="/css/components.css">
+    <link rel="stylesheet" href="/css/animations.css">
+    <link rel="stylesheet" href="/css/project-detail.css">
+    <script type="module" src="/js/main.js"></script>
+</head>
+
+<body>
+    <!-- Loading Screen -->
+    <div class="loader">
+        <div class="loader-content">
+            <div class="loader-character">
+                <svg viewBox="0 0 200 120" xmlns="http://www.w3.org/2000/svg" class="straw-hat-svg">
+                    <path d="M20 80 Q20 65 100 65 Q180 65 180 80 Q180 95 100 95 Q20 95 20 80Z" fill="#E8C35E" />
+                    <path d="M55 70 Q55 20 100 20 Q145 20 145 70" fill="#E8C35E" />
+                    <path d="M57 60 Q57 52 100 52 Q143 52 143 60 L144 68 Q144 74 100 74 Q56 74 56 68 Z"
+                        fill="#C0392B" />
+                </svg>
+            </div>
+            <p class="loader-text">Loading...</p>
+        </div>
+    </div>
+
+    <!-- Header Placeholder -->
+    <div id="header-placeholder"></div>
+
+    <!-- Main Content -->
+    <!-- Main Content -->
+    <main>
+        <section class="project-detail">
+            <div class="container">
+                <!-- Back Button & Title -->
+                <div class="project-header fade-in">
+                    <a href="work.html" class="back-link" title="Back to Projects">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="19" y1="12" x2="5" y2="12"></line>
+                            <polyline points="12 19 5 12 12 5"></polyline>
+                        </svg>
+                    </a>
+
+                    <!-- Project Title Section -->
+                    <div class="project-title-section">
+                        <h1 id="project-title" class="project-main-title">Project Title</h1>
+                        <p id="project-tagline" class="project-subtitle">A brief description of the project and its
+                            impact.</p>
+                    </div>
+                </div>
+
+                <!-- Hero Image -->
+                <div class="project-hero-image fade-in">
+                    <img id="project-image" src="" alt="Project Screenshot">
+                </div>
+
+                <!-- Figma Link -->
+                <div id="figma-link-container" class="figma-link-container fade-in" style="display: none;">
+                    <a id="project-figma-link" href="#" target="_blank" class="figma-link">
+                        <svg viewBox="0 0 38 57" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M19 28.5C19 25.9834 20.0009 23.5698 21.7825 21.7882C23.5641 20.0066 25.9777 19 28.4943 19C31.0108 19 33.4244 20.0066 35.206 21.7882C36.9876 23.5698 37.9885 25.9834 37.9885 28.5C37.9885 31.0166 36.9876 33.4302 35.206 35.2118C33.4244 36.9934 31.0108 38 28.4943 38C25.9777 38 23.5641 36.9934 21.7825 35.2118C20.0009 33.4302 19 31.0166 19 28.5Z"
+                                fill="#1ABCFE" />
+                            <path
+                                d="M0 47.5C0 44.9834 1.00089 42.5698 2.78248 40.7882C4.56408 39.0066 6.9777 38 9.49425 38H18.9885V47.5C18.9885 50.0166 17.9876 52.4302 16.206 54.2118C14.4244 55.9934 12.0108 57 9.49425 57C6.9777 57 4.56408 55.9934 2.78248 54.2118C1.00089 52.4302 0 50.0166 0 47.5Z"
+                                fill="#0ACF83" />
+                            <path
+                                d="M0 28.5C0 25.9834 1.00089 23.5698 2.78248 21.7882C4.56408 20.0066 6.9777 19 9.49425 19H18.9885V38H9.49425C6.9777 38 4.56408 36.9934 2.78248 35.2118C1.00089 33.4302 0 31.0166 0 28.5Z"
+                                fill="#A259FF" />
+                            <path
+                                d="M0 9.5C0 6.98344 1.00089 4.56984 2.78248 2.78825C4.56408 1.00665 6.9777 0 9.49425 0H18.9885V19H9.49425C6.9777 19 4.56408 17.9934 2.78248 16.2118C1.00089 14.4302 0 12.0166 0 9.5Z"
+                                fill="#F24E1E" />
+                            <path
+                                d="M19 0H28.4943C31.0108 0 33.4244 1.00665 35.206 2.78825C36.9876 4.56984 37.9885 6.98344 37.9885 9.5C37.9885 12.0166 36.9876 14.4302 35.206 16.2118C33.4244 17.9934 31.0108 19 28.4943 19H19V0Z"
+                                fill="#FF7262" />
+                        </svg>
+                        <span>View Full Project on Figma</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" class="arrow-icon">
+                            <line x1="7" y1="17" x2="17" y2="7"></line>
+                            <polyline points="7 7 17 7 17 17"></polyline>
+                        </svg>
+                    </a>
+                </div>
+
+                <!-- Project Meta Grid (moved after Figma link) -->
+                <div class="project-meta">
+                    <div class="project-meta-item">
+                        <div class="meta-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                                <circle cx="12" cy="7" r="4"></circle>
+                            </svg>
+                        </div>
+                        <h4>Client</h4>
+                        <p id="project-client">Loading...</p>
+                    </div>
+
+                    <div class="project-meta-item">
+                        <div class="meta-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                                <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+                            </svg>
+                        </div>
+                        <h4>Industry</h4>
+                        <p id="project-industry">Loading...</p>
+                    </div>
+
+                    <div class="project-meta-item">
+                        <div class="meta-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <polyline points="12 6 12 12 16 14"></polyline>
+                            </svg>
+                        </div>
+                        <h4>Timeline</h4>
+                        <p id="project-timeline">Loading...</p>
+                    </div>
+
+                    <div class="project-meta-item">
+                        <div class="meta-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M12 2L2 7l10 5 10-5-10-5z"></path>
+                                <path d="M2 17l10 5 10-5"></path>
+                                <path d="M2 12l10 5 10-5"></path>
+                            </svg>
+                        </div>
+                        <h4>Tone</h4>
+                        <p id="project-tone">Loading...</p>
+                    </div>
+                </div>
+
+                <!-- Project Content with Better Layout -->
+                <div class="project-description-container">
+                    <div class="project-description fade-in">
+                        <div class="section-number">01</div>
+                        <h2>About the Client</h2>
+                        <p id="project-about-client">Loading...</p>
+                    </div>
+
+                    <div class="project-description fade-in">
+                        <div class="section-number">02</div>
+                        <h2>The Challenge</h2>
+                        <p id="project-challenge">Loading...</p>
+                    </div>
+
+                    <div class="project-description fade-in">
+                        <div class="section-number">03</div>
+                        <h2>The Solution</h2>
+                        <p id="project-solution">Loading...</p>
+                    </div>
+
+                    <div id="results-container" class="project-description fade-in">
+                        <div class="section-number">04</div>
+                        <h2>Results</h2>
+                        <p id="project-results">Loading...</p>
+                    </div>
+                </div>
+
+                <!-- CTA Section -->
+                <div class="project-cta fade-in">
+                    <a href="work.html" class="btn-primary">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <line x1="19" y1="12" x2="5" y2="12"></line>
+                            <polyline points="12 19 5 12 12 5"></polyline>
+                        </svg>
+                        Back to All Projects
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Placeholder -->
+    <div id="footer-placeholder"></div>
+
+    <script type="module">
+        import { projects } from '/js/projects.js';
+
+        document.addEventListener('DOMContentLoaded', () => {
+            const urlParams = new URLSearchParams(window.location.search);
+            const projectId = urlParams.get('id');
+            const project = projects.find(p => p.id === projectId) || projects[0];
+
+            if (project) {
+                document.getElementById('project-title').textContent = project.title;
+                document.getElementById('project-tagline').textContent = project.tagline;
+                document.getElementById('project-client').textContent = project.client || 'N/A';
+                document.getElementById('project-industry').textContent = project.industry || 'N/A';
+                document.getElementById('project-timeline').textContent = project.timeline;
+                document.getElementById('project-tone').textContent = project.tone || 'Professional';
+                document.getElementById('project-image').src = project.image;
+                document.getElementById('project-image').alt = project.title;
+                document.getElementById('project-about-client').textContent = project.aboutClient;
+                document.getElementById('project-challenge').textContent = project.challenge;
+                document.getElementById('project-solution').textContent = project.solution;
+                document.getElementById('project-results').textContent = project.results;
+
+                // Handle Figma Link
+                const figmaContainer = document.getElementById('figma-link-container');
+                const figmaLink = document.getElementById('project-figma-link');
+                if (project.figmaLink && project.figmaLink !== '#') {
+                    figmaContainer.style.display = 'block';
+                    figmaLink.href = project.figmaLink;
+                } else {
+                    figmaContainer.style.display = 'none';
+                }
+
+                // Update page title
+                document.title = `${project.title} | Sagar Kumar Khadka`;
+            }
+        });
+    </script>
+</body>
+
+</html>

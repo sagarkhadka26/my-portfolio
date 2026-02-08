@@ -1,0 +1,472 @@
+/* ========================================
+   Components - Navigation, Footer, Cards
+   ======================================== */
+
+/* ========================================
+   Header / Navigation
+   ======================================== */
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    padding: 20px 0;
+    background-color: var(--bg-cream);
+    /* Solid background by default */
+    transition: background-color var(--transition-medium), box-shadow var(--transition-medium);
+}
+
+.header.scrolled {
+    background-color: rgba(253, 245, 228, 0.95);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* Uses 100px padding from container */
+}
+
+.logo {
+    width: 48px;
+    height: 48px;
+    transition: transform var(--transition-medium);
+}
+
+.logo:hover {
+    transform: scale(1.05);
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+}
+
+/* Navigation */
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    /* 2px gap from Figma */
+}
+
+.nav-link {
+    padding: 10px 22px;
+    border-radius: 50px;
+    font-size: 0.95rem;
+    font-weight: 500;
+    transition: all var(--transition-medium);
+    border: 1.5px solid var(--black);
+    /* Stroke on all links */
+    background-color: transparent;
+    color: var(--black);
+}
+
+.nav-link:hover {
+    background-color: rgba(0, 0, 0, 0.08);
+}
+
+.nav-link.active {
+    background-color: var(--black);
+    color: var(--white);
+    border-color: var(--black);
+}
+
+/* Mobile Menu Toggle */
+.menu-toggle {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    padding: 10px;
+}
+
+.menu-toggle span {
+    width: 24px;
+    height: 2px;
+    background-color: var(--black);
+    transition: all var(--transition-medium);
+}
+
+@media (max-width: 768px) {
+    .menu-toggle {
+        display: flex;
+    }
+
+    .nav {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        width: 280px;
+        height: 100vh;
+        background-color: var(--bg-cream);
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+        transition: right var(--transition-medium);
+        box-shadow: -5px 0 30px rgba(0, 0, 0, 0.1);
+    }
+
+    .nav.active {
+        right: 0;
+    }
+
+    .nav-link {
+        font-size: 1.2rem;
+    }
+}
+
+/* ========================================
+   Footer
+   ======================================== */
+.footer {
+    padding: 60px 0 40px;
+    margin-top: 100px;
+    border-top: 1.5px solid var(--black);
+}
+
+.footer-content {
+    display: grid;
+    grid-template-columns: auto 1fr 1fr;
+    gap: 60px;
+    align-items: start;
+}
+
+.footer-avatar {
+    width: 280px;
+    /* Increased size significantly */
+}
+
+.footer-avatar img {
+    width: 100%;
+    height: auto;
+}
+
+.footer-contact h3 {
+    font-size: 1.1rem;
+    margin-bottom: 24px;
+    font-weight: 600;
+}
+
+.footer-contact-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 12px;
+    font-size: 0.95rem;
+    color: var(--text-dark);
+    transition: color var(--transition-fast);
+}
+
+.footer-contact-item:hover {
+    color: var(--text-light);
+}
+
+.footer-contact-item svg {
+    width: 18px;
+    height: 18px;
+    flex-shrink: 0;
+}
+
+/* Resume Button */
+.btn-resume {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 24px;
+    padding: 14px 28px;
+    background-color: var(--black);
+    color: var(--white);
+    border-radius: 50px;
+    font-weight: 500;
+    transition: all var(--transition-medium);
+}
+
+.btn-resume:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.btn-resume svg {
+    width: 16px;
+    height: 16px;
+}
+
+/* Social Links */
+.footer-social h3 {
+    font-size: 1.1rem;
+    margin-bottom: 24px;
+    font-weight: 600;
+}
+
+.social-links {
+    display: flex;
+    gap: 16px;
+}
+
+.social-link {
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 1px solid var(--text-dark);
+    transition: all var(--transition-medium);
+}
+
+.social-link:hover {
+    background-color: var(--black);
+    color: var(--white);
+    transform: translateY(-3px);
+}
+
+.social-link svg {
+    width: 20px;
+    height: 20px;
+}
+
+/* Footer Copyright */
+.footer-copyright {
+    margin-top: 60px;
+    padding-top: 24px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    font-size: 0.85rem;
+    color: var(--text-light);
+}
+
+@media (max-width: 768px) {
+    .footer-content {
+        grid-template-columns: 1fr;
+        gap: 40px;
+        text-align: center;
+    }
+
+    .footer-avatar {
+        margin: 0 auto;
+        width: 150px;
+    }
+
+    .footer-contact-item {
+        justify-content: center;
+    }
+
+    .social-links {
+        justify-content: center;
+    }
+}
+
+/* ========================================
+   Project Cards
+   ======================================== */
+.project-card {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    transition: all var(--transition-medium);
+}
+
+.project-card:hover {
+    transform: translateY(-8px);
+}
+
+.project-card-inner {
+    width: 100%;
+    /* Responsive width */
+    aspect-ratio: 1/1;
+    /* Maintain square shape */
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    overflow: hidden;
+    background-color: var(--card-bg);
+    /* Ensure background works */
+}
+
+.project-card-image {
+    width: auto;
+    max-width: 90%;
+    /* Fit within container */
+    max-height: 80%;
+    /* Fit within container */
+    height: auto;
+    object-fit: contain;
+    border-radius: 4px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    transition: transform var(--transition-medium);
+}
+
+.project-card:hover .project-card-image {
+    transform: scale(1.1);
+}
+
+.project-card-title {
+    order: -1;
+    /* Move title to top */
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    /* Slightly increased gap for icon */
+    margin-bottom: 10px;
+    /* Distance between title and card */
+    margin-top: 0;
+    font-size: 18px;
+    /* Figma measurement */
+    font-weight: 600;
+    /* Semi-Bold */
+    color: var(--black);
+}
+
+.project-card-title svg {
+    display: block;
+    /* Show icon */
+    width: 20px;
+    /* Adjust size as needed */
+    height: 20px;
+    stroke-width: 2;
+    /* Make it bold like text */
+    opacity: 1;
+    /* Solid black */
+}
+
+/* Card Color Variants */
+.project-card.pink .project-card-inner {
+    background-color: var(--card-pink);
+}
+
+.project-card.peach .project-card-inner {
+    background-color: var(--card-peach);
+}
+
+.project-card.yellow .project-card-inner {
+    background-color: var(--card-yellow);
+}
+
+.project-card.green .project-card-inner {
+    background-color: var(--card-green);
+}
+
+.project-card.purple .project-card-inner {
+    background-color: var(--card-purple);
+}
+
+.project-card.cyan .project-card-inner {
+    background-color: var(--card-cyan);
+}
+
+/* ========================================
+   Loading Screen
+   ======================================== */
+.loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--bg-cream);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+    transition: opacity 0.5s ease, visibility 0.5s ease;
+}
+
+.loader.hidden {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.loader-content {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.loader-character {
+    width: 140px;
+    height: 80px;
+    position: relative;
+    animation: luffy-run 0.6s infinite ease-in-out;
+}
+
+.straw-hat-svg {
+    width: 100%;
+    height: 100%;
+}
+
+/* Speed lines behind the hat */
+.loader-character::before,
+.loader-character::after {
+    content: '';
+    position: absolute;
+    right: 100%;
+    height: 3px;
+    background: var(--black);
+    border-radius: 3px;
+    opacity: 0.2;
+    animation: speed-lines 0.3s infinite linear;
+}
+
+.loader-character::before {
+    width: 30px;
+    top: 40%;
+    animation-delay: 0.1s;
+}
+
+.loader-character::after {
+    width: 50px;
+    top: 60%;
+    animation-delay: 0.2s;
+}
+
+.loader-text {
+    margin-top: 25px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    color: var(--black);
+    animation: fadeInOut 1.5s ease-in-out infinite;
+}
+
+@keyframes luffy-run {
+
+    0%,
+    100% {
+        transform: translateY(0) rotate(-5deg);
+    }
+
+    50% {
+        transform: translateY(-15px) rotate(5deg);
+    }
+}
+
+@keyframes speed-lines {
+    0% {
+        transform: translateX(0);
+        opacity: 0.4;
+    }
+
+    100% {
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+}
+
+@keyframes fadeInOut {
+
+    0%,
+    100% {
+        opacity: 0.5;
+    }
+
+    50% {
+        opacity: 1;
+    }
+}

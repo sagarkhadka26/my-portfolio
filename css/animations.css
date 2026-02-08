@@ -1,0 +1,316 @@
+/* ========================================
+   Animations - Keyframes & Effects
+   ======================================== */
+
+/* ========================================
+   Avatar Animation
+   ======================================== */
+@keyframes float {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-15px);
+    }
+}
+
+@keyframes sway {
+
+    0%,
+    100% {
+        transform: rotate(-1deg);
+    }
+
+    50% {
+        transform: rotate(1deg);
+    }
+}
+
+
+
+/* 
+   Sprite Animation 
+   - 9 frames
+   - Play once, then pause
+   - Total cycle: ~3-4 seconds (e.g., 1s play + 2.5s pause)
+*/
+/* 
+   Sprite Animation 
+   - 9 frames
+   - Play for 2s, Pause for 2s
+   - Total cycle: 4s
+*/
+@keyframes avatar-cycle {
+    0% {
+        background-position: 0 0;
+    }
+
+    /* 
+       Play frames 1 to 9 over 2s (50% of 4s).
+    */
+    50% {
+        background-position: 100% 0;
+    }
+
+    /* Reset to Frame 1 for the 2s pause */
+    50.01% {
+        background-position: 0 0;
+    }
+
+    100% {
+        background-position: 0 0;
+    }
+}
+
+.avatar-animated {
+    /* 
+       - avatar-cycle: sprite animation (expression changes)
+       - float/sway removed to keep position static
+    */
+    animation: avatar-cycle 4s steps(8) infinite;
+
+    transform-origin: bottom center;
+}
+
+/* ========================================
+   Scroll Animations
+   ======================================== */
+.fade-in {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.fade-in.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.slide-left {
+    opacity: 0;
+    transform: translateX(-50px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.slide-left.visible {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.slide-right {
+    opacity: 0;
+    transform: translateX(50px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.slide-right.visible {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.scale-in {
+    opacity: 0;
+    transform: scale(0.9);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.scale-in.visible {
+    opacity: 1;
+    transform: scale(1);
+}
+
+/* Stagger delays for cards */
+.stagger-1 {
+    transition-delay: 0.1s;
+}
+
+.stagger-2 {
+    transition-delay: 0.2s;
+}
+
+.stagger-3 {
+    transition-delay: 0.3s;
+}
+
+.stagger-4 {
+    transition-delay: 0.4s;
+}
+
+.stagger-5 {
+    transition-delay: 0.5s;
+}
+
+.stagger-6 {
+    transition-delay: 0.6s;
+}
+
+/* ========================================
+   Page Transitions
+   ======================================== */
+.page-transition {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--black);
+    z-index: 9998;
+    transform: scaleY(0);
+    transform-origin: bottom;
+    transition: transform 0.5s cubic-bezier(0.86, 0, 0.07, 1);
+}
+
+.page-transition.active {
+    transform: scaleY(1);
+    transform-origin: top;
+}
+
+/* ========================================
+   Hover Effects
+   ======================================== */
+.hover-lift {
+    transition: transform var(--transition-medium), box-shadow var(--transition-medium);
+}
+
+.hover-lift:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.hover-glow {
+    transition: box-shadow var(--transition-medium);
+}
+
+.hover-glow:hover {
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.15);
+}
+
+/* Link underline animation */
+.link-underline {
+    position: relative;
+}
+
+.link-underline::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: var(--black);
+    transition: width var(--transition-medium);
+}
+
+.link-underline:hover::after {
+    width: 100%;
+}
+
+/* ========================================
+   Custom Cursor
+   ======================================== */
+.custom-cursor {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 38px;
+    height: 38px;
+    background-image: url('../assets/images/main-cursor.png');
+    /* Fallback to cursor style if needed */
+    background-size: contain;
+    background-repeat: no-repeat;
+    pointer-events: none;
+    z-index: 10000;
+    transition: transform 0.1s ease;
+}
+
+.custom-cursor.hover,
+.custom-cursor.clicking {
+    transform: scale(1.0);
+    background-image: url('../assets/images/cursor-pointer.cur');
+}
+
+/* Cursor trail dot - we can hide it or keep it as a focal point */
+.cursor-dot {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 6px;
+    height: 6px;
+    background-color: var(--white);
+    border-radius: 50%;
+    pointer-events: none;
+    z-index: 9999;
+    mix-blend-mode: difference;
+    transition: transform 0.08s ease;
+}
+
+/* Sparkle canvas */
+#sparkle-canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 9997;
+}
+
+/* ========================================
+   Text Animations
+   ======================================== */
+@keyframes typewriter {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes blink {
+
+    0%,
+    50% {
+        border-color: transparent;
+    }
+
+    51%,
+    100% {
+        border-color: var(--black);
+    }
+}
+
+.typewriter {
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 3px solid var(--black);
+    animation: typewriter 2s steps(40) forwards, blink 0.75s step-end infinite;
+}
+
+/* ========================================
+   Gradient Text
+   ======================================== */
+.gradient-text {
+    background: linear-gradient(135deg, var(--black) 0%, #666 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/* ========================================
+   Responsive Animations
+   ======================================== */
+@media (prefers-reduced-motion: reduce) {
+
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+}

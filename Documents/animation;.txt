@@ -1,0 +1,174 @@
+"use client";
+
+import { useEffect, useRef } from "react";
+import { motion } from "framer-motion";
+
+interface WorkCardProps {
+  title: string;
+  description: string;
+  image: string;
+}
+
+function WorkCard({ title, description, image }: WorkCardProps) {
+  const handleCardClick = () => {
+    // Navigate to project details page
+    window.location.href = `/project/${title.toLowerCase().replace(/\s+/g, '-')}`;
+  };
+
+  return (
+    <motion.div whileHover={{ y: -6 }}>
+      <div 
+        className="relative w-[400px] h-[380px] p-10 bg-white flex flex-col justify-between items-center cursor-pointer" 
+        style={{ backgroundColor: 'white', border: '1px solid #b6b6b6', borderRadius: '8px' }}
+        onClick={handleCardClick}
+      >
+        <div className="w-[368px] h-[200px] rounded-lg overflow-hidden" style={{ border: '1px solid #d1d5db', borderRadius: '8px', marginTop: '16px' }}>
+          <div 
+            className="w-full h-full bg-cover bg-center"
+            style={{ backgroundImage: `url('/${image}')` }}
+          />
+        </div>
+        <div className="w-[336px] h-[120px] flex flex-col gap-1" style={{ border: '1px solid #d1d5db', borderRadius: '8px', paddingTop: '16px', paddingLeft: '16px', paddingRight: '16px', marginBottom: '16px' }}>
+          <h3 className="font-bold text-black text-lg" style={{ margin: '0px', padding: '4px', color: 'black' }}>{title}</h3>
+          <p className="text-black text-sm" style={{ margin: '0px', padding: '4px', color: 'black' }}>{description}</p>
+          <div className="text-blue-500 text-sm font-medium flex items-center gap-1" style={{ color: '#3b82f6', padding: '4px' }}>
+            View Project →
+          </div>
+        </div>
+      </div>
+    </motion.div>
+  )
+}
+
+export default function WorkCarousel3D() {
+  const dragRef = useRef<HTMLDivElement>(null);
+  const spinRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    if (!dragRef.current || !spinRef.current) return;
+
+    const radius = 400;
+    const rotateSpeed = -60;
+
+    const items = Array.from(spinRef.current.children) as HTMLElement[];
+
+    items.forEach((el, i) => {
+      el.style.transform = `rotateY(${i * (360 / items.length)}deg) translateZ(${radius}px)`;
+      el.style.transition = "transform 1s";
+    });
+
+    // Set initial rotation to center the first card
+    spinRef.current.style.transform = `rotateY(${-360 / items.length / 2}deg)`;
+
+    spinRef.current.style.animation = `spinRevert ${Math.abs(rotateSpeed)}s infinite linear`;
+
+    let tX = 0;
+    let sX = 0;
+
+    const applyTransform = () => {
+      if (!dragRef.current) return;
+      dragRef.current.style.transform = `rotateY(${tX}deg)`; // horizontal only
+    };
+
+    const onPointerDown = (e: PointerEvent) => {
+      sX = e.clientX;
+
+      const onMove = (e: PointerEvent) => {
+        const nX = e.clientX;
+        tX += (nX - sX) * 0.1;
+        applyTransform();
+        sX = nX;
+      };
+
+      const onUp = () => {
+        document.removeEventListener("pointermove", onMove);
+        document.removeEventListener("pointerup", onUp);
+      };
+
+      document.addEventListener("pointermove", onMove);
+      document.addEventListener("pointerup", onUp);
+    };
+
+    dragRef.current.addEventListener("pointerdown", onPointerDown);
+
+    return () => {
+      dragRef.current?.removeEventListener("pointerdown", onPointerDown);
+    };
+  }, []);
+
+  return (
+    <div className="relative flex h-[350px] w-full items-start justify-center overflow-visible" style={{ paddingTop: '40px' }}>
+      <div ref={dragRef} className="preserve-3d">
+        <div ref={spinRef} className="preserve-3d">
+
+          {/* 1 */}
+          <div className="absolute w-[400px] z-10">
+            <motion.div whileHover={{ y: -6 }}>
+              <WorkCard
+                title="Yewon Education Centre Website"
+                description="A Website designed for Korean learning and EPS-TOPIK Preparation"
+                image="yewon.png"
+              />
+            </motion.div>
+          </div>
+
+          {/* 2 */}
+          <div className="absolute w-[400px] z-10">
+            <motion.div whileHover={{ y: -6 }}>
+              <WorkCard
+                title="Legal Links & Consultancy Website"
+                description="A Website designed for a Law Firm based in Kathmandu"
+                image="legal.png"
+              />
+            </motion.div>
+          </div>
+
+          {/* 3 */}
+          <div className="absolute w-[400px] z-10">
+            <motion.div whileHover={{ y: -6 }}>
+              <WorkCard
+                title="Supadeurali Pet Industry Website"
+                description="An e-commerce website for Bottle products using Pet and Food grade Materials"
+                image="Supa.png"
+              />
+            </motion.div>
+          </div>
+
+          {/* 4 */}
+          <div className="absolute w-[400px] z-10">
+            <motion.div whileHover={{ y: -6 }}>
+              <WorkCard
+                title="Dolpo Ice Cream"
+                description="A Website designed for an Ice Cream Business"
+                image="Dolpo.png"
+              />
+            </motion.div>
+          </div>
+
+          {/* 5 */}
+          <div className="absolute w-[400px] z-10">
+            <motion.div whileHover={{ y: -6 }}>
+              <WorkCard
+                title="Release Publication Udhyog"
+                description="A Website designed for a Press Publication Business"
+                image="release.png"
+              />
+            </motion.div>
+          </div>
+
+          {/* 6 */}
+          <div className="absolute w-[400px] z-10">
+            <motion.div whileHover={{ y: -6 }}>
+              <WorkCard
+                title="NMC Pathology & BLood Bank"
+                description="A Website designed for a Pathology and Blood Bank Center"
+                image="nmc.png"
+              />
+            </motion.div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  );
+}

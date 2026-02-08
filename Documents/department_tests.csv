@@ -1,0 +1,508 @@
+﻿id,title,test_name,description
+molecular-biology,MOLECULAR BIOLOGY,CERVICAL CANCER SCREENING TESTS (LBC+HPV DNA),Combines liquid-based cytology (LBC) with HPV DNA detection for cervical cancer screening.
+molecular-biology,MOLECULAR BIOLOGY,COVID RT-PCR,Detects SARS-CoV-2 virus genetic material using reverse transcription polymerase chain reaction.
+molecular-biology,MOLECULAR BIOLOGY,HLA B 27 PCR,Identifies HLA-B27 genetic marker associated with autoimmune disorders like ankylosing spondylitis.
+molecular-biology,MOLECULAR BIOLOGY,HPV DNA PCR,Detects high-risk human papillomavirus (HPV) DNA linked to cervical cancer risk.
+molecular-biology,MOLECULAR BIOLOGY,LBC+HPV DNA PCR COMBO,Combined liquid-based cytology and HPV DNA PCR for enhanced cervical cancer screening.
+haematology,HAEMATOLOGY,ABO BLOOD GROUPING & RH TYPING,"Determines a person's blood group (A, B, AB, O) and Rh factor (positive/negative)."
+haematology,HAEMATOLOGY,ABSOLUTE EOSINOPHIL COUNT,"Measures the number of eosinophils in blood, useful in allergy or parasitic infection."
+haematology,HAEMATOLOGY,ABSOLUTE LYMPHOCYTE COUNT,Measures lymphocyte count to assess immune system activity.
+haematology,HAEMATOLOGY,ABSOLUTE NEUTROPHIL COUNT,Measures neutrophils to detect infection risk or bone marrow function.
+haematology,HAEMATOLOGY,ASCITIC FLUID FOR TOTAL COUNT,Counts cells in ascitic fluid to check for infection or malignancy.
+haematology,HAEMATOLOGY,BLEEDING TIME,Assesses how long it takes for blood vessels to stop bleeding.
+haematology,HAEMATOLOGY,BLEEDING TIME/CLOTTING TIME (BT/CT),Measures both bleeding time and clotting time together.
+haematology,HAEMATOLOGY,CLOTTING TIME,Measures time required for blood to clot.
+haematology,HAEMATOLOGY,COMPLETE BLOOD COUNT (CBC),"Comprehensive blood test measuring RBC, WBC, hemoglobin, hematocrit, and platelets."
+haematology,HAEMATOLOGY,CSF FOR TOTAL COUNT,Measures cell count in cerebrospinal fluid to detect infection or inflammation.
+haematology,HAEMATOLOGY,DIFFERENTIAL COUNT (DLC),Identifies percentages of different white blood cell types.
+haematology,HAEMATOLOGY,ESR,Erythrocyte sedimentation rate; measures inflammation in the body.
+haematology,HAEMATOLOGY,GLYCATED HEMOGLOBIN (HbA1c),Reflects average blood sugar levels over the past 2â€“3 months.
+haematology,HAEMATOLOGY,HAEMOGLOBIN,Measures hemoglobin level to assess anemia or blood health.
+haematology,HAEMATOLOGY,MCH,Mean corpuscular hemoglobin; average hemoglobin per red blood cell.
+haematology,HAEMATOLOGY,MCHC,Mean corpuscular hemoglobin concentration; hemoglobin concentration in red blood cells.
+haematology,HAEMATOLOGY,MCV,Mean corpuscular volume; average size of red blood cells.
+haematology,HAEMATOLOGY,MENTZER INDEX,Ratio used to differentiate between iron deficiency anemia and thalassemia.
+haematology,HAEMATOLOGY,PACKED CELL VOLUME,Also called hematocrit; percentage of red blood cells in blood.
+haematology,HAEMATOLOGY,PERITONEAL FLUID FOR TOTAL COUNT,Counts cells in peritoneal fluid to detect infection or inflammation.
+haematology,HAEMATOLOGY,PLATELET DISTRIBUTION WIDTH (PDW),"Measures variation in platelet size, useful in platelet disorders."
+haematology,HAEMATOLOGY,PLEURAL FLUID FOR TOTAL COUNT,Measures cell count in pleural fluid to detect infection or malignancy.
+haematology,HAEMATOLOGY,RED BLOOD CELLS,Measures the number of red blood cells in blood.
+haematology,HAEMATOLOGY,RED CELL DISTRIBUTION WIDTH; RDW-CV,Coefficient of variation of red cell distribution; indicates variability in RBC size.
+haematology,HAEMATOLOGY,RED CELL DISTRIBUTION WIDTH; RDW-SD,Standard deviation of red cell distribution; another measure of RBC size variability.
+haematology,HAEMATOLOGY,SYNOVIAL FLUID FOR TOTAL COUNT,Measures cells in synovial fluid to diagnose arthritis or joint infection.
+haematology,HAEMATOLOGY,TOTAL LEUCOCYTE COUNT,Measures total white blood cell count in blood.
+haematology,HAEMATOLOGY,TOTAL PLATELET COUNT,Measures total platelet count to assess clotting function.
+microbiology,MICROBIOLOGY,AFB STAIN (ZN STAINING),"Detects acid-fast bacilli (e.g., Mycobacterium tuberculosis) using Ziehl-Neelsen staining."
+microbiology,MICROBIOLOGY,AFB STAIN (ZN STAINING) DAY 2,Second-day sputum smear for TB bacilli detection.
+microbiology,MICROBIOLOGY,AFB STAIN (ZN STAINING) DAY 3,Third-day sputum smear for TB bacilli detection.
+microbiology,MICROBIOLOGY,AFB STAIN(ACID FAST BACILLI),General test to identify acid-fast bacilli.
+microbiology,MICROBIOLOGY,ALBERT/ NEISSER STAIN FOR DIPHTHERIA,Detects diphtheria bacilli with metachromatic granules.
+microbiology,MICROBIOLOGY,ASCITIC FLUID FOR C/S,Culture and sensitivity to detect infection in ascitic fluid.
+microbiology,MICROBIOLOGY,ASCITIC FLUID FOR AFB STAIN,Microscopy to detect TB bacilli in ascitic fluid.
+microbiology,MICROBIOLOGY,ASCITIC FLUID FOR FUNGAL C/S,Culture to detect fungal infection in ascitic fluid.
+microbiology,MICROBIOLOGY,ASCITIC FLUID FOR GRAM STAIN,Identifies bacteria in ascitic fluid microscopically.
+microbiology,MICROBIOLOGY,ASCITIC FLUID FOR KOH,Detects fungal elements in ascitic fluid with KOH prep.
+microbiology,MICROBIOLOGY,BILE C/S,Culture and sensitivity to detect infection in bile.
+microbiology,MICROBIOLOGY,BLOOD C/S,Culture and sensitivity for bloodstream infections.
+microbiology,MICROBIOLOGY,BLOOD CULTURE (AUTOMATED BACTEC),Automated blood culture for early infection detection.
+microbiology,MICROBIOLOGY,BLOOD CULTURE BOTTLE BACTEC,Blood culture using BACTEC system bottles.
+microbiology,MICROBIOLOGY,BONE FOR AFB,Detects TB bacilli in bone samples.
+microbiology,MICROBIOLOGY,BONE FOR C/S,Culture and sensitivity for bone infection.
+microbiology,MICROBIOLOGY,BONE FOR GRAM STAIN,Microscopy to detect bacteria in bone samples.
+microbiology,MICROBIOLOGY,BONE MARROW ASPIRATE C/S,Culture for detecting bone marrow infections.
+microbiology,MICROBIOLOGY,BONE MARROW ASPIRATE AFB STAIN,Detects TB bacilli in bone marrow aspirate.
+microbiology,MICROBIOLOGY,BONE MARROW ASPIRATE FOR GRAM STAIN,Identifies bacteria in bone marrow aspirate.
+microbiology,MICROBIOLOGY,BRONCHIAL ASPIRATION FOR AFB,Detects TB bacilli in bronchial aspirate.
+microbiology,MICROBIOLOGY,BRONCHIAL ASPIRATION FOR C/S,Culture for bacterial infection in bronchial aspirate.
+microbiology,MICROBIOLOGY,BRONCHIAL ASPIRATION FOR GRAM STAIN,Microscopic detection of bacteria in bronchial aspirate.
+microbiology,MICROBIOLOGY,BRONCHIAL ASPIRATION FOR KOH,Detects fungal elements in bronchial aspirate.
+microbiology,MICROBIOLOGY,BRONCHIAL BRUSH C/S,Culture for infection from bronchial brushings.
+microbiology,MICROBIOLOGY,BRONCHIAL BRUSH FOR AFB,Detects TB bacilli in bronchial brushings.
+microbiology,MICROBIOLOGY,BRONCHIAL BRUSH FOR GRAM STAIN,Identifies bacteria in bronchial brush samples.
+microbiology,MICROBIOLOGY,BRONCHIAL BRUSH FOR KOH,Detects fungi in bronchial brush samples.
+microbiology,MICROBIOLOGY,BRONCHIAL BRUSH FUNGAL C/S,Culture to identify fungal infections from bronchial brush.
+microbiology,MICROBIOLOGY,BRONCHOALVEOLAR LAVAGE C/S,Culture for infection from BAL fluid.
+microbiology,MICROBIOLOGY,BRONCHOALVEOLAR LAVAGE FOR AFB STAIN,Detects TB bacilli in BAL fluid.
+microbiology,MICROBIOLOGY,BRONCHOALVEOLAR LAVAGE FOR GRAM STAIN,Identifies bacteria in BAL fluid.
+microbiology,MICROBIOLOGY,BRONCHOALVEOLAR LAVAGE FOR KOH,Detects fungal elements in BAL fluid.
+microbiology,MICROBIOLOGY,BRONCHOALVEOLAR LAVAGE FUNGAL C/S,Culture for fungal infection in BAL fluid.
+microbiology,MICROBIOLOGY,CATHETERTIP C/S,Culture to check for catheter-related infections.
+microbiology,MICROBIOLOGY,CHOLERA CULTURE,Culture to detect Vibrio cholerae.
+microbiology,MICROBIOLOGY,CORNEAL SCRAPPING FOR C/S,Culture from corneal scraping to detect infection.
+microbiology,MICROBIOLOGY,CORNEAL SCRAPPING FOR GRAM STAIN,Identifies bacteria in corneal scrapings.
+microbiology,MICROBIOLOGY,CORNEAL SCRAPPING FOR KOH,Detects fungi in corneal scrapings.
+microbiology,MICROBIOLOGY,CSF C/S,Culture of cerebrospinal fluid for infection.
+microbiology,MICROBIOLOGY,CSF FOR AFB STAIN,Detects TB bacilli in cerebrospinal fluid.
+microbiology,MICROBIOLOGY,CSF FOR FUNGAL C/S,Culture for fungal infection in CSF.
+microbiology,MICROBIOLOGY,CSF FOR GRAM STAIN,Identifies bacteria in CSF.
+microbiology,MICROBIOLOGY,CSF FOR KOH,Detects fungi in CSF with KOH prep.
+microbiology,MICROBIOLOGY,EAR SWAB C/S,Culture for infection from ear swab.
+microbiology,MICROBIOLOGY,EAR SWAB FOR AFB STAIN,Detects TB bacilli in ear swab.
+microbiology,MICROBIOLOGY,EAR SWAB FOR FUNGAL C/S,Culture for fungal infection from ear swab.
+microbiology,MICROBIOLOGY,EAR SWAB FOR GRAM STAIN,Identifies bacteria from ear swab.
+microbiology,MICROBIOLOGY,EAR SWAB FOR KOH,Detects fungi from ear swab.
+microbiology,MICROBIOLOGY,ENDO TRACHEAL TUBE C/S,Culture for infection from ET tube.
+microbiology,MICROBIOLOGY,ENDO TRACHEAL TUBE GRAM STAIN,Identifies bacteria in ET tube samples.
+microbiology,MICROBIOLOGY,EYE SWAB C/S,Culture to detect eye infections.
+microbiology,MICROBIOLOGY,FUNGAL C/S,Culture to detect fungal pathogens.
+microbiology,MICROBIOLOGY,FUNGAL SCRAPPING HYPHAE EXAMINATION,Microscopy to detect fungal hyphae.
+microbiology,MICROBIOLOGY,GERM TUBE TEST (Candida albicans),Identifies Candida albicans by germ tube formation.
+microbiology,MICROBIOLOGY,GRAM STAIN,Differentiates Gram-positive and Gram-negative bacteria.
+microbiology,MICROBIOLOGY,GRAM STAIN FOR URETHRAL SMEAR,Detects bacteria in urethral smears.
+microbiology,MICROBIOLOGY,GRAM STAIN FOR PROSTATIC SMEAR,Identifies bacteria in prostatic secretions.
+microbiology,MICROBIOLOGY,GRAM STAIN FOR PUS,Detects bacteria in pus sample.
+microbiology,MICROBIOLOGY,GRAM STAIN FOR SMEAR,General bacterial identification in smear.
+microbiology,MICROBIOLOGY,HAIR FOR FUNGAL C/S,Culture for fungal infection of hair.
+microbiology,MICROBIOLOGY,HAIR FOR GRAM STAIN,Detects bacteria in hair samples.
+microbiology,MICROBIOLOGY,HAIR FOR KOH,Detects fungal elements in hair with KOH prep.
+microbiology,MICROBIOLOGY,HIGH VAGINAL SWAB FOR AFB STAIN,Detects TB bacilli in vaginal swab.
+microbiology,MICROBIOLOGY,HIGH VAGINAL SWAB FOR C/S,Culture for infection in vaginal swab.
+microbiology,MICROBIOLOGY,HIGH VAGINAL SWAB FOR FUNGAL C/S,Fungal culture from vaginal swab.
+microbiology,MICROBIOLOGY,HIGH VAGINAL SWAB FOR KOH,Detects fungi in vaginal swab.
+microbiology,MICROBIOLOGY,HYDATID CYST FLUID C/S,Culture for infection in hydatid cyst fluid.
+microbiology,MICROBIOLOGY,HYDATID CYST FLUID FOR FUNGAL C/S,Fungal culture from hydatid cyst fluid.
+microbiology,MICROBIOLOGY,HYDATID CYST FLUID FOR GRAM STAIN,Detects bacteria in hydatid cyst fluid.
+microbiology,MICROBIOLOGY,HYDATID CYST FLUID FOR KOH,Detects fungi in hydatid cyst fluid.
+microbiology,MICROBIOLOGY,INDIA INK PREPARATION FOR CRYPTOCOCCI,Detects Cryptococcus in CSF.
+microbiology,MICROBIOLOGY,KOH PREPARATION,Microscopy test for fungal elements.
+microbiology,MICROBIOLOGY,LD BODIES DETECTION,Detects Leishmania donovani bodies.
+microbiology,MICROBIOLOGY,MANTOUX TEST (TUBERCULIN SKIN TEST),Detects TB infection by skin reaction.
+microbiology,MICROBIOLOGY,MICROFILARIAL MICROSCOPY,Detects microfilariae in blood smears.
+microbiology,MICROBIOLOGY,MODIFIED ZN STAIN FOR LEPRA BACILLI (NASAL SMEAR),Detects leprosy bacilli in nasal smear.
+microbiology,MICROBIOLOGY,MODIFIED ZN STAIN FOR LEPRA BACILLI (SKIN SMEAR),Detects leprosy bacilli in skin smear.
+microbiology,MICROBIOLOGY,NAIL FOR FUNGAL C/S,Culture for fungal infection in nails.
+microbiology,MICROBIOLOGY,NAIL FOR KOH,Detects fungi in nail samples.
+microbiology,MICROBIOLOGY,NAIL SWAB FOR C/S,Culture for infection in nail swab.
+microbiology,MICROBIOLOGY,NASAL SWAB FOR C/S,Culture for nasal infection.
+microbiology,MICROBIOLOGY,NASAL SWAB FOR FUNGAL C/S,Fungal culture from nasal swab.
+microbiology,MICROBIOLOGY,NASAL SWAB FOR GRAM STAIN,Detects bacteria in nasal swab.
+microbiology,MICROBIOLOGY,NASAL SWAB FOR KOH,Detects fungi in nasal swab.
+microbiology,MICROBIOLOGY,OT POST SWAB CULTURE,Culture after surgery to detect infection.
+microbiology,MICROBIOLOGY,OT PRE SWAB FOR CULTURE,Preoperative swab culture to detect infection.
+microbiology,MICROBIOLOGY,PERICARDIAL FLUID FOR AFB STAIN,Detects TB bacilli in pericardial fluid.
+microbiology,MICROBIOLOGY,PERICARDIAL FLUID FOR C/S,Culture for bacterial infection in pericardial fluid.
+microbiology,MICROBIOLOGY,PERICARDIAL FLUID FOR FUNGAL C/S,Fungal culture from pericardial fluid.
+microbiology,MICROBIOLOGY,PERICARDIAL FLUID FOR GRAM STAIN,Identifies bacteria in pericardial fluid.
+microbiology,MICROBIOLOGY,PERICARDIAL FLUID FOR KOH,Detects fungi in pericardial fluid.
+microbiology,MICROBIOLOGY,PERITONEAL FLUID C/S,Culture for infection in peritoneal fluid.
+microbiology,MICROBIOLOGY,PERITONEAL FLUID FOR GRAM STAIN,Detects bacteria in peritoneal fluid.
+microbiology,MICROBIOLOGY,PERITONEAL FLUID FOR AFB STAIN,Detects TB bacilli in peritoneal fluid.
+microbiology,MICROBIOLOGY,PERITONEAL FUID FOR FUNGAL C/S,Fungal culture from peritoneal fluid.
+microbiology,MICROBIOLOGY,PERITONEAL FUID FOR KOH,Detects fungi in peritoneal fluid.
+microbiology,MICROBIOLOGY,PLEURAL FLUID C/S,Culture for infection in pleural fluid.
+microbiology,MICROBIOLOGY,PLEURAL FLUID FOR GRAM STAIN,Detects bacteria in pleural fluid.
+microbiology,MICROBIOLOGY,PLEURAL FLUID FOR AFB STAIN,Detects TB bacilli in pleural fluid.
+microbiology,MICROBIOLOGY,PLEURAL FLUID FOR FUNGAL C/S,Fungal culture from pleural fluid.
+microbiology,MICROBIOLOGY,PLEURAL FLUID FOR KOH,Detects fungi in pleural fluid.
+microbiology,MICROBIOLOGY,PUS C/S,Culture for infection from pus.
+microbiology,MICROBIOLOGY,PUS FOR AFB STAIN,Detects TB bacilli in pus.
+microbiology,MICROBIOLOGY,PUS FOR FUNGAL C/S,Fungal culture from pus.
+microbiology,MICROBIOLOGY,PUS FOR GRAM STAIN,Detects bacteria in pus.
+microbiology,MICROBIOLOGY,PUS FOR KOH,Detects fungi in pus.
+microbiology,MICROBIOLOGY,PUS SWAB C/S,Culture from pus swab for infection.
+microbiology,MICROBIOLOGY,PUS SWAB FOR AFB STAIN,Detects TB bacilli in pus swab.
+microbiology,MICROBIOLOGY,PUS SWAB FOR FUNGAL C/S,Fungal culture from pus swab.
+microbiology,MICROBIOLOGY,PUS SWAB FOR GRAM STAIN,Detects bacteria in pus swab.
+microbiology,MICROBIOLOGY,PUS SWAB FOR KOH,Detects fungi in pus swab.
+microbiology,MICROBIOLOGY,ROUTINE C/S,Standard culture and sensitivity test.
+microbiology,MICROBIOLOGY,SEMEN FOR C/S,Culture for infection in semen.
+microbiology,MICROBIOLOGY,SEMEN FOR GRAM STAIN,Detects bacteria in semen.
+microbiology,MICROBIOLOGY,SEMEN FOR KOH,Detects fungi in semen.
+microbiology,MICROBIOLOGY,SINONASAL POLYPS FOR AFB STAIN,Detects TB bacilli in sinonasal polyps.
+microbiology,MICROBIOLOGY,SINONASAL POLYPS FOR FUNGAL C/S,Fungal culture from sinonasal polyps.
+microbiology,MICROBIOLOGY,SINONASAL POLYPS FOR GRAM STAIN,Detects bacteria in sinonasal polyps.
+microbiology,MICROBIOLOGY,SINONASAL POLYPS FOR KOH,Detects fungi in sinonasal polyps.
+microbiology,MICROBIOLOGY,SKIN FOR AFB,Detects TB bacilli in skin sample.
+microbiology,MICROBIOLOGY,SKIN SCRAPPING FOR FUNGAL C/S,Culture for fungal infection in skin scrapings.
+microbiology,MICROBIOLOGY,SKIN SCRAPPING FOR FUNGUS,Direct microscopy for fungi in skin scrapings.
+microbiology,MICROBIOLOGY,SKIN SCRAPPING FOR GRAM STAIN,Detects bacteria in skin scrapings.
+microbiology,MICROBIOLOGY,SKIN SCRAPPING FOR KOH,Detects fungi in skin scrapings.
+microbiology,MICROBIOLOGY,SLIT SKIN SMEAR EXAMINATION (LEPROSY),Detects leprosy bacilli in skin slit smear.
+microbiology,MICROBIOLOGY,SMEAR FOR FUNGUS,General smear for detecting fungal elements.
+microbiology,MICROBIOLOGY,SPUTUM C/S,Culture for bacterial infection in sputum.
+microbiology,MICROBIOLOGY,SPUTUM FOR AFB STAIN FIRST DAY,Detects TB bacilli on first-day sputum smear.
+microbiology,MICROBIOLOGY,SPUTUM FOR AFB STAIN SECOND DAY,Detects TB bacilli on second-day sputum smear.
+microbiology,MICROBIOLOGY,SPUTUM FOR AFB STAIN THIRD DAY,Detects TB bacilli on third-day sputum smear.
+microbiology,MICROBIOLOGY,SPUTUM FOR FUNGAL C/S,Fungal culture from sputum.
+microbiology,MICROBIOLOGY,SPUTUM FOR GRAM STAIN,Detects bacteria in sputum.
+microbiology,MICROBIOLOGY,SPUTUM FOR KOH,Detects fungi in sputum with KOH prep.
+microbiology,MICROBIOLOGY,SPUTUM FOR PARASITE,Detects parasites in sputum.
+microbiology,MICROBIOLOGY,STONE FOR C/S,Culture for infection from stone sample.
+microbiology,MICROBIOLOGY,STONE FOR GRAM STAIN,Detects bacteria in stone sample.
+microbiology,MICROBIOLOGY,STONE FOR KOH,Detects fungi in stone sample.
+microbiology,MICROBIOLOGY,STOOL C/S,Culture for bacterial infection in stool.
+microbiology,MICROBIOLOGY,SWAB C/S,Culture for infection from swab sample.
+microbiology,MICROBIOLOGY,SYNOVIAL FLUID FOR GRAM STAIN,Detects bacteria in synovial fluid.
+microbiology,MICROBIOLOGY,SYNOVIAL FLUID C/S,Culture for infection in synovial fluid.
+microbiology,MICROBIOLOGY,SYNOVIAL FLUID FOR AFB STAIN,Detects TB bacilli in synovial fluid.
+microbiology,MICROBIOLOGY,SYNOVIAL FLUID FOR FUNGAL C/S,Fungal culture from synovial fluid.
+microbiology,MICROBIOLOGY,SYNOVIAL FLUID FOR KOH,Detects fungi in synovial fluid.
+microbiology,MICROBIOLOGY,THROAT SWAB C/S,Culture for bacterial throat infection.
+microbiology,MICROBIOLOGY,THROAT SWAB FOR AFB STAIN,Detects TB bacilli in throat swab.
+microbiology,MICROBIOLOGY,THROAT SWAB FOR FUNGAL C/S,Fungal culture from throat swab.
+microbiology,MICROBIOLOGY,THROAT SWAB FOR GRAM STAIN,Detects bacteria in throat swab.
+microbiology,MICROBIOLOGY,THROAT SWAB FOR KOH,Detects fungi in throat swab.
+microbiology,MICROBIOLOGY,TISSUE C/S,Culture for infection from tissue sample.
+microbiology,MICROBIOLOGY,TZANCK SMEAR TEST,Detects multinucleated giant cells in viral infection.
+microbiology,MICROBIOLOGY,UMBILICUS SWAB FOR CULTURE,Culture for infection from umbilical swab.
+microbiology,MICROBIOLOGY,URETHRAL SWAB FOR AFB STAIN,Detects TB bacilli in urethral swab.
+microbiology,MICROBIOLOGY,URETHRAL SWAB FOR C/S,Culture for infection from urethral swab.
+microbiology,MICROBIOLOGY,URETHRAL SWAB FOR FUNGAL C/S,Fungal culture from urethral swab.
+microbiology,MICROBIOLOGY,URETHRAL SWAB FOR KOH,Detects fungi in urethral swab.
+microbiology,MICROBIOLOGY,URINE C/S,Culture for bacterial infection in urine.
+microbiology,MICROBIOLOGY,URINE FOR AFB,Detects TB bacilli in urine.
+microbiology,MICROBIOLOGY,URINE SWAB FOR C/S,Culture for infection in urine swab.
+microbiology,MICROBIOLOGY,VAGINAL SWAB C/S,Culture for infection in vaginal swab.
+microbiology,MICROBIOLOGY,VAGINAL SWAB FOR GRAM STAIN,Detects bacteria in vaginal swab.
+microbiology,MICROBIOLOGY,WOUND SWAB C/S,Culture for wound infection.
+microbiology,MICROBIOLOGY,WOUND SWAB FOR AFB STAIN,Detects TB bacilli in wound swab.
+microbiology,MICROBIOLOGY,WOUND SWAB FOR FUNGAL C/S,Fungal culture from wound swab.
+microbiology,MICROBIOLOGY,WOUND SWAB FOR GRAM STAIN,Detects bacteria in wound swab.
+microbiology,MICROBIOLOGY,WOUND SWAB FOR KOH,Detects fungi in wound swab.
+histopathology-cytology,HISTOPATHOLOGY & CYTOLOGY,ASCITIC FLUID FOR DC,Differential cell count in ascitic fluid to assess infection or malignancy.
+histopathology-cytology,HISTOPATHOLOGY & CYTOLOGY,BIOPSY (EXTRA LARGE),Histopathological examination of extra-large tissue sample.
+histopathology-cytology,HISTOPATHOLOGY & CYTOLOGY,BIOPSY (LARGE),Histopathological examination of large tissue sample.
+histopathology-cytology,HISTOPATHOLOGY & CYTOLOGY,BIOPSY (MEDIUM),Histopathological examination of medium tissue sample.
+histopathology-cytology,HISTOPATHOLOGY & CYTOLOGY,BIOPSY (SMALL),Histopathological examination of small tissue sample.
+histopathology-cytology,HISTOPATHOLOGY & CYTOLOGY,BIOPSY EXCISIONAL,Complete removal of lesion/tissue for microscopic examination.
+histopathology-cytology,HISTOPATHOLOGY & CYTOLOGY,BIOPSY INCISIONAL,Partial removal of tissue/lesion for microscopic diagnosis.
+histopathology-cytology,HISTOPATHOLOGY & CYTOLOGY,BIOPSY ONE SPECIMEN,Histopathology on a single biopsy specimen.
+histopathology-cytology,HISTOPATHOLOGY & CYTOLOGY,BIOPSY THREE SPECIMENS,Histopathology on three biopsy specimens.
+histopathology-cytology,HISTOPATHOLOGY & CYTOLOGY,BIOPSY TWO SPECIMENS,Histopathology on two biopsy specimens.
+histopathology-cytology,HISTOPATHOLOGY & CYTOLOGY,"BODY FLUID EXAMINATION(R/M/E)-Colour, Appearance, TC,DC,Protein, Glucose","Evaluates color, appearance, cell counts, protein, and glucose in body fluids."
+histopathology-cytology,HISTOPATHOLOGY & CYTOLOGY,BONE MARROW ASPIRATE FOR TOTAL COUNT,Measures total cells in bone marrow aspirate.
+histopathology-cytology,HISTOPATHOLOGY & CYTOLOGY,BONE MARROW ASPIRATE FOR DC,Differential cell count of bone marrow aspirate.
+histopathology-cytology,HISTOPATHOLOGY & CYTOLOGY,BONE MARROW ASPIRATION,Aspiration of bone marrow for cytology or hematological study.
+histopathology-cytology,HISTOPATHOLOGY & CYTOLOGY,BONE MARROW ASPIRATION + BIOPSY,Combined bone marrow aspiration and biopsy for complete evaluation.
+histopathology-cytology,HISTOPATHOLOGY & CYTOLOGY,BONE MARROW BIOPSY,Core biopsy of bone marrow for histopathology.
+histopathology-cytology,HISTOPATHOLOGY & CYTOLOGY,BRONCHIAL ASPIRATION FOR CYTOLOGY,Cytological study of bronchial aspirate for malignancy/infection.
+histopathology-cytology,HISTOPATHOLOGY & CYTOLOGY,Cell Block Cytology,Cell block preparation from fluids or aspirates for detailed cytology.
+histopathology-cytology,HISTOPATHOLOGY & CYTOLOGY,CERVICAL BIOPSY,Histopathological examination of cervical tissue.
+histopathology-cytology,HISTOPATHOLOGY & CYTOLOGY,CSF FOR DC,Differential cell count in cerebrospinal fluid.
+histopathology-cytology,HISTOPATHOLOGY & CYTOLOGY,CT GUIDED FNAC REPORT,Fine needle aspiration cytology performed under CT guidance with report.
+histopathology-cytology,HISTOPATHOLOGY & CYTOLOGY,CYTOLOGY SMEAR (MALIGNANT CELLS),Smear preparation to detect malignant cells.
+histopathology-cytology,HISTOPATHOLOGY & CYTOLOGY,ENDOMETRIAL BIOPSY,Histopathological evaluation of endometrial tissue.
+histopathology-cytology,HISTOPATHOLOGY & CYTOLOGY,FLUID FOR CYTOLOGY/MALIGNANT CELLS,Cytology on fluids to detect malignant cells.
+histopathology-cytology,HISTOPATHOLOGY & CYTOLOGY,FLUID FOR DLC,Differential leukocyte count in body fluids.
+histopathology-cytology,HISTOPATHOLOGY & CYTOLOGY,FLUID FOR MALIGNANT CELL (CSF),Cytology to detect malignant cells in CSF.
+histopathology-cytology,HISTOPATHOLOGY & CYTOLOGY,FLUID FOR MALIGNANT CELL (PERICARDIAL FLUID),Detects malignant cells in pericardial fluid.
+histopathology-cytology,HISTOPATHOLOGY & CYTOLOGY,FLUID FOR MALIGNANT CELL (PERITONEAL FLUID),Detects malignant cells in peritoneal fluid.
+histopathology-cytology,HISTOPATHOLOGY & CYTOLOGY,FLUID FOR MALIGNANT CELLS (PLEURAL FLUID),Detects malignant cells in pleural fluid.
+histopathology-cytology,HISTOPATHOLOGY & CYTOLOGY,FLUID FOR MALIGNANT CELLS (SYNOVIAL FLUID),Detects malignant cells in synovial fluid.
+histopathology-cytology,HISTOPATHOLOGY & CYTOLOGY,FLUID FOR TLC and DLC,Total and differential leukocyte count in body fluid.
+histopathology-cytology,HISTOPATHOLOGY & CYTOLOGY,FNAC (PROCEDURE & REPORT),Fine needle aspiration cytology with detailed report.
+histopathology-cytology,HISTOPATHOLOGY & CYTOLOGY,FNAC REPORT,Report of fine needle aspiration cytology findings.
+histopathology-cytology,HISTOPATHOLOGY & CYTOLOGY,MALARIAL PARASITE MICROSCOPY,Microscopic examination of blood for malaria parasites.
+histopathology-cytology,HISTOPATHOLOGY & CYTOLOGY,PAP SMEAR (Conventional),Conventional smear for cervical cancer screening.
+histopathology-cytology,HISTOPATHOLOGY & CYTOLOGY,PAP SMEAR (Conventional)- VAULT SMEAR,Conventional vault smear for post-hysterectomy patients.
+histopathology-cytology,HISTOPATHOLOGY & CYTOLOGY,PAP SMEAR (LBC Automated),Liquid-based cytology for cervical cancer screening.
+histopathology-cytology,HISTOPATHOLOGY & CYTOLOGY,PERIODIC ACID SCHIFF (PAS) STAIN,"Special stain to detect glycogen, fungi, and mucopolysaccharides."
+histopathology-cytology,HISTOPATHOLOGY & CYTOLOGY,PERIPHERAL BLOOD SMEAR(PBS),Microscopic review of blood cells for morphology and disorders.
+histopathology-cytology,HISTOPATHOLOGY & CYTOLOGY,PERITONEAL FLUID FOR DC,Differential cell count in peritoneal fluid.
+histopathology-cytology,HISTOPATHOLOGY & CYTOLOGY,PLEURAL FLUID FOR DC,Differential cell count in pleural fluid.
+histopathology-cytology,HISTOPATHOLOGY & CYTOLOGY,PUNCH BIOPSY,Small cylindrical tissue sample obtained for histopathology.
+histopathology-cytology,HISTOPATHOLOGY & CYTOLOGY,RETICULOCYTE COUNT,Measures immature red blood cells to assess bone marrow activity.
+histopathology-cytology,HISTOPATHOLOGY & CYTOLOGY,SLIDE REVIEW CYTOPATH,Expert review of cytology slides.
+histopathology-cytology,HISTOPATHOLOGY & CYTOLOGY,SLIDE REVIEW HISTOPATH,Expert review of histopathology slides.
+histopathology-cytology,HISTOPATHOLOGY & CYTOLOGY,SPUTUM DC,Differential cell count in sputum sample.
+histopathology-cytology,HISTOPATHOLOGY & CYTOLOGY,SYNOVIAL FLUID FOR DC,Differential cell count in synovial fluid.
+histopathology-cytology,HISTOPATHOLOGY & CYTOLOGY,TAKE AWAY BLOCK-PER BLOCK,Request for paraffin-embedded block for external use.
+histopathology-cytology,HISTOPATHOLOGY & CYTOLOGY,TAKE AWAY SLIDE- PER SLIDE,Request for prepared slides for external use.
+histopathology-cytology,HISTOPATHOLOGY & CYTOLOGY,URINE CYTOLOGY,Cytological examination of urine to detect malignant cells.
+histopathology-cytology,HISTOPATHOLOGY & CYTOLOGY,USG GUIDED FNAC,Fine needle aspiration cytology performed under ultrasound guidance.
+histopathology-cytology,HISTOPATHOLOGY & CYTOLOGY,USG GUIDED FNAC (REPORT),Report of ultrasound-guided FNAC findings.
+serology,SEROLOGY,ANTI-STREPTOLYSIN O- ASO (Qualitative),"Detects antibodies against streptolysin O, used in diagnosing recent streptococcal infection."
+serology,SEROLOGY,APTT - ACTIVATED PARTIAL THRMBOPLASTIN,Measures blood clotting time; evaluates intrinsic and common coagulation pathways.
+serology,SEROLOGY,BRUCELLA ANTIBODY,"Detects antibodies to Brucella species, useful in diagnosing brucellosis."
+serology,SEROLOGY,BRUCELLA ANTIGEN,Antigen test for detecting brucellosis infection.
+serology,SEROLOGY,COVID ANTIGEN TEST(SARS-COV-2 Ag TEST),Rapid test to detect SARS-CoV-2 viral antigens.
+serology,SEROLOGY,DENGUE NS1 & IgG/IgM,Detects dengue NS1 antigen and IgG/IgM antibodies for early and late infection.
+serology,SEROLOGY,FIBRIN DEGRADATION PRODUCT (FDP),"Measures FDP levels, useful in diagnosing disseminated intravascular coagulation (DIC)."
+serology,SEROLOGY,H.PYLORI ANTIBODY TEST-SERUM,Detects antibodies against Helicobacter pylori in blood.
+serology,SEROLOGY,H.PYLORI ANTIGEN TEST-STOOL,Detects Helicobacter pylori antigens in stool.
+serology,SEROLOGY,HBsAg (RAPID),Rapid test to detect hepatitis B surface antigen.
+serology,SEROLOGY,HCV ANTIBODY (RAPID),Rapid test to detect antibodies to hepatitis C virus.
+serology,SEROLOGY,HEPATITIS A ANTIBODY (RDT),Rapid test for antibodies against hepatitis A virus.
+serology,SEROLOGY,HEPATITIS E ANTIBODY (RDT),Rapid test for antibodies against hepatitis E virus.
+serology,SEROLOGY,HIGH SENSITIVE CRP (hsCRP),"Measures highly sensitive C-reactive protein, a marker of inflammation and cardiovascular risk."
+serology,SEROLOGY,HIV ANTIBODY 1 & 2 (RAPID),Rapid test to detect antibodies to HIV-1 and HIV-2.
+serology,SEROLOGY,K-39 (FOR KALA-AZAR),Rapid test for antibodies to Leishmania donovani (kala-azar).
+serology,SEROLOGY,LEPTOSPIRA IgG/IgM (RDT),Rapid test for antibodies to Leptospira infection.
+serology,SEROLOGY,MALARIA ANTIGEN (PF/PV) RAPID,Detects malaria parasite antigens (Plasmodium falciparum / vivax).
+serology,SEROLOGY,Mix test for APTT,Control or comparative test for activated partial thromboplastin time.
+serology,SEROLOGY,Mix test for PT,Control or comparative test for prothrombin time.
+serology,SEROLOGY,PT(INR)-PROTHROMBIN TIME,Measures clotting time; evaluates extrinsic and common coagulation pathways. INR standardizes results.
+serology,SEROLOGY,RPR,Rapid plasma reagin test for syphilis screening.
+serology,SEROLOGY,SALMONELLA IgM/IgG (TYPHOID),"Detects antibodies to Salmonella typhi, useful in diagnosing typhoid fever."
+serology,SEROLOGY,SCRUB TYPHUS- IgG/IgM,"Detects antibodies against Orientia tsutsugamushi, the cause of scrub typhus."
+serology,SEROLOGY,SYPHILIS ANTIBODY RAPID,Rapid test for detecting antibodies to Treponema pallidum.
+serology,SEROLOGY,TREPONEMA PALLIDUM HAEMAGGLUTINATION TEST,Confirmatory test for syphilis; detects antibodies to Treponema pallidum.
+serology,SEROLOGY,VDRL,Venereal Disease Research Laboratory test; screening for syphilis.
+serology,SEROLOGY,VDRL TITRE,Quantitative VDRL test to determine antibody levels in syphilis.
+serology,SEROLOGY,WIDAL TEST,Detects agglutinating antibodies against Salmonella typhi and paratyphi (typhoid fever).
+immunoassay,IMMUNOASSSAY,24 HOUR URINARY CORTISOL,Measures cortisol levels in 24-hour urine to evaluate adrenal gland function.
+immunoassay,IMMUNOASSSAY,ALLERGY PROFILE FOOD,Panel test to detect allergic reactions to common food allergens.
+immunoassay,IMMUNOASSSAY,ALLERGY PROFILE INHALATION,"Panel test to detect allergic reactions to inhaled allergens such as dust, pollen, dander."
+immunoassay,IMMUNOASSSAY,ALPHA FETO-PROTEIN,"Tumor marker used in liver cancer, germ cell tumors, and pregnancy monitoring."
+immunoassay,IMMUNOASSSAY,AMH(ANTI MULLERIAN HORMONE),Assesses ovarian reserve and fertility potential in women.
+immunoassay,IMMUNOASSSAY,ANA (ANTI NUCLEAR ANTIBODY)-ELISA,Screens for autoimmune diseases such as lupus by detecting ANA.
+immunoassay,IMMUNOASSSAY,ANTI dsDNA,"Detects antibodies against double-stranded DNA, specific for systemic lupus erythematosus."
+immunoassay,IMMUNOASSSAY,ANTI GBM (GLOMERULAR BASEMENT MEMBRANE),"Detects antibodies against GBM, diagnostic for Goodpasturea's syndrome."
+immunoassay,IMMUNOASSSAY,ANTI HBS AB(HEPATITIS B SURFACE ANTI BODY)-ELISA,Determines immunity to Hepatitis B infection or vaccination.
+immunoassay,IMMUNOASSSAY,ANTI-TPO,"Detects antibodies against thyroid peroxidase, used in autoimmune thyroid disorders."
+immunoassay,IMMUNOASSSAY,BETA HCG,Hormone measured in pregnancy and certain tumors.
+immunoassay,IMMUNOASSSAY,C-ANCA,Antineutrophil cytoplasmic antibody; marker for Wegenera's granulomatosis.
+immunoassay,IMMUNOASSSAY,CA 125,Tumor marker primarily used for ovarian cancer detection and monitoring.
+immunoassay,IMMUNOASSSAY,CA 15.3,Tumor marker used in breast cancer monitoring.
+immunoassay,IMMUNOASSSAY,CA 19.9,Tumor marker mainly for pancreatic and gastrointestinal cancers.
+immunoassay,IMMUNOASSSAY,CEA,Carcinoembryonic antigen; tumor marker used in colorectal and other cancers.
+immunoassay,IMMUNOASSSAY,CORTISOL 4pm,Serum cortisol level at 4 PM to assess adrenal function and diurnal variation.
+immunoassay,IMMUNOASSSAY,CORTISOL 8am,Serum cortisol level at 8 AM; peak measurement for adrenal function testing.
+immunoassay,IMMUNOASSSAY,ENA PROFILE (18 PARAMETER),Extended autoimmune antibody panel for connective tissue diseases.
+immunoassay,IMMUNOASSSAY,ESTRADIOL(E2) SERUM,Measures estradiol hormone level; evaluates ovarian and reproductive function.
+immunoassay,IMMUNOASSSAY,FERRITIN,"Indicates iron storage levels in the body; low in iron deficiency, high in chronic disease."
+immunoassay,IMMUNOASSSAY,FIBRINOGEN,"Assesses clotting ability; high in inflammation, low in bleeding disorders."
+immunoassay,IMMUNOASSSAY,FOLATE,Vitamin B9 measurement; important in anemia and pregnancy health.
+immunoassay,IMMUNOASSSAY,FOLLICLE STIMULATING HORMONE(FSH),Assesses reproductive function and ovarian reserve.
+immunoassay,IMMUNOASSSAY,FREE THYROXINE(FT4),Measures free T4 hormone; evaluates thyroid function.
+immunoassay,IMMUNOASSSAY,FREE TRI-IODOTHYRONINE(FT3),Measures free T3 hormone; evaluates thyroid function.
+immunoassay,IMMUNOASSSAY,HBsAg Quantitative - CLIA,Quantitative measurement of hepatitis B surface antigen by chemiluminescence immunoassay.
+immunoassay,IMMUNOASSSAY,HIV- CLIA,HIV antibody/antigen detection using chemiluminescence immunoassay.
+immunoassay,IMMUNOASSSAY,KIDNEY STONE ANALYSIS -4161,Analyzes chemical composition of kidney stones.
+immunoassay,IMMUNOASSSAY,LEUTINIZING HORMONE (LH),Measures LH hormone; important in fertility and ovulation assessment.
+immunoassay,IMMUNOASSSAY,P-ANCA,Perinuclear antineutrophil cytoplasmic antibody; marker for vasculitis and autoimmune disease.
+immunoassay,IMMUNOASSSAY,PROLACTIN,"Measures prolactin hormone; elevated in pituitary disorders, infertility, and galactorrhea."
+immunoassay,IMMUNOASSSAY,PSA (TOTAL),Prostate-specific antigen; marker for prostate cancer and benign prostatic hyperplasia.
+immunoassay,IMMUNOASSSAY,PTH INTACT (SERUM),Measures intact parathyroid hormone to evaluate calcium and bone metabolism.
+immunoassay,IMMUNOASSSAY,RHEUMATOID ARTHRITIS PROFILE,Panel of tests to detect markers of rheumatoid arthritis.
+immunoassay,IMMUNOASSSAY,SERUM IGE LEVEL (TOTAL IGE),Measures total IgE antibody levels; elevated in allergies and parasitic infections.
+immunoassay,IMMUNOASSSAY,SERUM PROGESTERONE,"Measures progesterone levels; assesses ovulation, fertility, and pregnancy health."
+immunoassay,IMMUNOASSSAY,SERUM TESTOSTERONE TOTAL,Measures total testosterone in blood; assesses reproductive and endocrine function.
+immunoassay,IMMUNOASSSAY,SLE DIAGNOSTIC PANEL (ANA & DSDNA)-5004,Panel including ANA and dsDNA tests to diagnose systemic lupus erythematosus.
+immunoassay,IMMUNOASSSAY,THYROID FUNCTION TEST (TFT),"Panel including TSH, T3, T4 to assess thyroid gland function."
+immunoassay,IMMUNOASSSAY,THYROID STIMULATING HORMONE(TSH),Measures TSH; main screening test for thyroid disorders.
+immunoassay,IMMUNOASSSAY,TOTAL T3,Measures total triiodothyronine hormone; evaluates thyroid function.
+immunoassay,IMMUNOASSSAY,TOTAL T4,Measures total thyroxine hormone; evaluates thyroid function.
+immunoassay,IMMUNOASSSAY,TPHA-ELISA,Treponema pallidum hemagglutination assay via ELISA; used to confirm syphilis.
+immunoassay,IMMUNOASSSAY,VITAMIN B12,Measures vitamin B12 levels; important for nerve function and blood formation.
+immunoassay,IMMUNOASSSAY,VITAMIN D (25 OH VITAMIN D),Measures vitamin D levels; essential for bone and calcium metabolism.
+biochemistry,BIOCHEMISTRY,% Saturation,Diagnostic biochemical test; evaluates metabolic or organ function.
+biochemistry,BIOCHEMISTRY,0 HRS PERITONEAL FLUID SAMPLE,Analyzes biochemical parameters in body fluid; aids diagnosis.
+biochemistry,BIOCHEMISTRY,1 HOUR GTT (GLUCOSE) TEST - 75g,Measures blood glucose response; used in diabetes screening.
+biochemistry,BIOCHEMISTRY,2 HOUR GTT (GLUCOSE) TEST - 75g,Measures blood glucose response; used in diabetes screening.
+biochemistry,BIOCHEMISTRY,2 HRS PERITONEAL FLUID SAMPLE,Analyzes biochemical parameters in body fluid; aids diagnosis.
+biochemistry,BIOCHEMISTRY,2 HRS SERUM SAMPLE,Diagnostic biochemical test; evaluates metabolic or organ function.
+biochemistry,BIOCHEMISTRY,24 HOUR CREATININE CLEARANCE TEST,Measures creatinine; assesses kidney function.
+biochemistry,BIOCHEMISTRY,24 HOUR URINARY AMYLASE,Analyzes urinary levels; used for kidney or metabolic assessment.
+biochemistry,BIOCHEMISTRY,24 HOUR URINARY CALCIUM,Analyzes urinary levels; used for kidney or metabolic assessment.
+biochemistry,BIOCHEMISTRY,24 HOUR URINARY CHLORIDE,Analyzes urinary levels; used for kidney or metabolic assessment.
+biochemistry,BIOCHEMISTRY,24 HOUR URINARY CREATININE,Analyzes urinary levels; used for kidney or metabolic assessment.
+biochemistry,BIOCHEMISTRY,24 HOUR URINARY MAGNESIUM,Analyzes urinary levels; used for kidney or metabolic assessment.
+biochemistry,BIOCHEMISTRY,24 HOUR URINARY PHOSPHORUS,Analyzes urinary levels; used for kidney or metabolic assessment.
+biochemistry,BIOCHEMISTRY,24 HOUR URINARY POTASSIUM,Analyzes urinary levels; used for kidney or metabolic assessment.
+biochemistry,BIOCHEMISTRY,24 HOUR URINARY PROTEIN,Analyzes urinary levels; used for kidney or metabolic assessment.
+biochemistry,BIOCHEMISTRY,24 HOUR URINARY SODIUM,Analyzes urinary levels; used for kidney or metabolic assessment.
+biochemistry,BIOCHEMISTRY,24 HOUR URINARY UREA,Analyzes urinary levels; used for kidney or metabolic assessment.
+biochemistry,BIOCHEMISTRY,24 HOUR URINARY URIC ACID,Analyzes urinary levels; used for kidney or metabolic assessment.
+biochemistry,BIOCHEMISTRY,24 HRS PERITONEAL FLUID SAMPLE,Analyzes biochemical parameters in body fluid; aids diagnosis.
+biochemistry,BIOCHEMISTRY,24 HRS URINE SAMPLE,Analyzes urinary levels; used for kidney or metabolic assessment.
+biochemistry,BIOCHEMISTRY,4 HRS PERITONEAL FLUID SAMPLE,Analyzes biochemical parameters in body fluid; aids diagnosis.
+biochemistry,BIOCHEMISTRY,ACR (ALBUMIN CREATININE RATIO)-24 HR URINE,Analyzes urinary levels; used for kidney or metabolic assessment.
+biochemistry,BIOCHEMISTRY,ACR (ALBUMIN CREATININE RATIO)-SPOT URINE,Analyzes urinary levels; used for kidney or metabolic assessment.
+biochemistry,BIOCHEMISTRY,ADENOSINE DEAMINASE(ADA)-ASCITIC FLUID,Analyzes biochemical parameters in body fluid; aids diagnosis.
+biochemistry,BIOCHEMISTRY,ADENOSINE DEAMINASE(ADA)-CSF,Cerebrospinal fluid test; used in meningitis and neurological evaluation.
+biochemistry,BIOCHEMISTRY,ADENOSINE DEAMINASE(ADA)-FLUID,Analyzes biochemical parameters in body fluid; aids diagnosis.
+biochemistry,BIOCHEMISTRY,ADENOSINE DEAMINASE(ADA)-PERITONEAL FLUID,Analyzes biochemical parameters in body fluid; aids diagnosis.
+biochemistry,BIOCHEMISTRY,ADENOSINE DEAMINASE(ADA)-PLEURAL FLUID,Analyzes biochemical parameters in body fluid; aids diagnosis.
+biochemistry,BIOCHEMISTRY,ADENOSINE DEAMINASE(ADA)-SERUM,Diagnostic biochemical test; evaluates metabolic or organ function.
+biochemistry,BIOCHEMISTRY,ADENOSINE DEAMINASE(ADA)-SYNOVIAL FLUID,Analyzes biochemical parameters in body fluid; aids diagnosis.
+biochemistry,BIOCHEMISTRY,ADENOSINE FLUID(ADA)-IN FLUID,Analyzes biochemical parameters in body fluid; aids diagnosis.
+biochemistry,BIOCHEMISTRY,ALANINE AMINOTRANSFERASE (ALT),Liver function test; evaluates hepatic health.
+biochemistry,BIOCHEMISTRY,ALBUMIN GLOBULIN RATIO,"Measures albumin levels; evaluates liver, kidney, or nutrition status."
+biochemistry,BIOCHEMISTRY,ALBUMIN IN ASCITIC FLUID,Analyzes biochemical parameters in body fluid; aids diagnosis.
+biochemistry,BIOCHEMISTRY,ALBUMIN IN FLUID,Analyzes biochemical parameters in body fluid; aids diagnosis.
+biochemistry,BIOCHEMISTRY,ALBUMIN IN PERITONEAL FLUID,Analyzes biochemical parameters in body fluid; aids diagnosis.
+biochemistry,BIOCHEMISTRY,ALBUMIN IN PLEURAL FLUID,Analyzes biochemical parameters in body fluid; aids diagnosis.
+biochemistry,BIOCHEMISTRY,ALBUMIN IN SYNOVIAL FLUID,Analyzes biochemical parameters in body fluid; aids diagnosis.
+biochemistry,BIOCHEMISTRY,ALKALINE PHOSPHATASE(ALP),Liver function test; evaluates hepatic health.
+biochemistry,BIOCHEMISTRY,AMYLASE IN ASCITIC FLUID,Analyzes biochemical parameters in body fluid; aids diagnosis.
+biochemistry,BIOCHEMISTRY,AMYLASE IN FLUID,Analyzes biochemical parameters in body fluid; aids diagnosis.
+biochemistry,BIOCHEMISTRY,AMYLASE IN PERITONEAL FLUID,Analyzes biochemical parameters in body fluid; aids diagnosis.
+biochemistry,BIOCHEMISTRY,AMYLASE IN PLEURAL FLUID,Analyzes biochemical parameters in body fluid; aids diagnosis.
+biochemistry,BIOCHEMISTRY,AMYLASE IN URINE,Analyzes urinary levels; used for kidney or metabolic assessment.
+biochemistry,BIOCHEMISTRY,ANTI CCP-ANTI CYCLIC CITRULLINATED PEPTIDE,Immunological marker; used in inflammation or autoimmune disease.
+biochemistry,BIOCHEMISTRY,ANTI-STREPTOLYSIN O - ASO (Quantitative),Immunological marker; used in inflammation or autoimmune disease.
+biochemistry,BIOCHEMISTRY,ASCITIC FLUID FOR ALBUMIN,Analyzes biochemical parameters in body fluid; aids diagnosis.
+biochemistry,BIOCHEMISTRY,ASCITIC FLUID FOR GLUCOSE,Measures blood glucose response; used in diabetes screening.
+biochemistry,BIOCHEMISTRY,ASCITIC FLUID FOR LDH,Analyzes biochemical parameters in body fluid; aids diagnosis.
+biochemistry,BIOCHEMISTRY,ASCITIC FLUID FOR PROTEIN,Analyzes biochemical parameters in body fluid; aids diagnosis.
+biochemistry,BIOCHEMISTRY,ASPARTATE AMINOTRANSFERASE(AST),Liver function test; evaluates hepatic health.
+biochemistry,BIOCHEMISTRY,BILIRUBIN DIRECT,Measures bilirubin; assesses liver and bile duct function.
+biochemistry,BIOCHEMISTRY,BILIRUBIN INDIRECT,Measures bilirubin; assesses liver and bile duct function.
+biochemistry,BIOCHEMISTRY,BILIRUBIN TOTAL,Measures bilirubin; assesses liver and bile duct function.
+biochemistry,BIOCHEMISTRY,BLOOD SUGAR FASTING,Liver function test; evaluates hepatic health.
+biochemistry,BIOCHEMISTRY,BLOOD SUGAR PP,Diagnostic biochemical test; evaluates metabolic or organ function.
+biochemistry,BIOCHEMISTRY,BLOOD SUGAR RANDOM(RBS),Diagnostic biochemical test; evaluates metabolic or organ function.
+biochemistry,BIOCHEMISTRY,BLOOD UREA NITROGEN (BUN),Measures urea nitrogen; evaluates kidney function.
+biochemistry,BIOCHEMISTRY,CALCIUM CREATININE RATIO (SPOT URINE),Analyzes urinary levels; used for kidney or metabolic assessment.
+biochemistry,BIOCHEMISTRY,CALCIUM IONIZED,Electrolyte test; evaluates fluid balance and metabolism.
+biochemistry,BIOCHEMISTRY,CARDIAC FUNCTION TEST (ADVANCED),Cardiac marker; used in diagnosis of heart disease.
+biochemistry,BIOCHEMISTRY,CARDIAC FUNCTION TEST (SCREENING),Cardiac marker; used in diagnosis of heart disease.
+biochemistry,BIOCHEMISTRY,"CHLORIDE, SERUM",Electrolyte test; evaluates fluid balance and metabolism.
+biochemistry,BIOCHEMISTRY,CHOLINESTERASE,Diagnostic biochemical test; evaluates metabolic or organ function.
+biochemistry,BIOCHEMISTRY,CK-MB,Cardiac marker; used in diagnosis of heart disease.
+biochemistry,BIOCHEMISTRY,CK-NAC (CREATINE PHOSPHOKINASE),Cardiac marker; used in diagnosis of heart disease.
+biochemistry,BIOCHEMISTRY,COMPLEMENT 3 (C3),Immunological marker; used in inflammation or autoimmune disease.
+biochemistry,BIOCHEMISTRY,COMPLEMENT 4(C4),Immunological marker; used in inflammation or autoimmune disease.
+biochemistry,BIOCHEMISTRY,CORRECTED CALCIUM,Electrolyte test; evaluates fluid balance and metabolism.
+biochemistry,BIOCHEMISTRY,CRP (QUANTITATIVE),Immunological marker; used in inflammation or autoimmune disease.
+biochemistry,BIOCHEMISTRY,CSF FOR GLUCOSE,Measures blood glucose response; used in diabetes screening.
+biochemistry,BIOCHEMISTRY,CSF FOR LDH,Cerebrospinal fluid test; used in meningitis and neurological evaluation.
+biochemistry,BIOCHEMISTRY,CSF FOR PROTEIN,"Measures protein levels; indicates renal, hepatic, or inflammatory disorders."
+biochemistry,BIOCHEMISTRY,CSF PROTEIN,"Measures protein levels; indicates renal, hepatic, or inflammatory disorders."
+biochemistry,BIOCHEMISTRY,D-DIMER TEST,Diagnostic biochemical test; evaluates metabolic or organ function.
+biochemistry,BIOCHEMISTRY,DE-RITIS RATIO,Diagnostic biochemical test; evaluates metabolic or organ function.
+biochemistry,BIOCHEMISTRY,DIALYSATE TESTING,Diagnostic biochemical test; evaluates metabolic or organ function.
+biochemistry,BIOCHEMISTRY,eGFR,Estimates kidney filtration rate; assesses renal function.
+biochemistry,BIOCHEMISTRY,FASTING BLOOD GLUCOSE- GTT (75 g)-1,Measures blood glucose response; used in diabetes screening.
+biochemistry,BIOCHEMISTRY,FLUID FOR PROTEIN,Analyzes biochemical parameters in body fluid; aids diagnosis.
+biochemistry,BIOCHEMISTRY,FLUID FOR ALBUMIN,Analyzes biochemical parameters in body fluid; aids diagnosis.
+biochemistry,BIOCHEMISTRY,FLUID FOR AMYLASE,Analyzes biochemical parameters in body fluid; aids diagnosis.
+biochemistry,BIOCHEMISTRY,FLUID FOR CREATININE,Analyzes biochemical parameters in body fluid; aids diagnosis.
+biochemistry,BIOCHEMISTRY,FLUID FOR GLUCOSE,Measures blood glucose response; used in diabetes screening.
+biochemistry,BIOCHEMISTRY,FLUID FOR LDH,Analyzes biochemical parameters in body fluid; aids diagnosis.
+biochemistry,BIOCHEMISTRY,FLUID FOR LIPASE,Analyzes biochemical parameters in body fluid; aids diagnosis.
+biochemistry,BIOCHEMISTRY,FLUID FOR UREA,Analyzes biochemical parameters in body fluid; aids diagnosis.
+biochemistry,BIOCHEMISTRY,GAMMA GLUTAMYL TRANSFERASE (GGT),Liver function test; evaluates hepatic health.
+biochemistry,BIOCHEMISTRY,GLOBULIN,Diagnostic biochemical test; evaluates metabolic or organ function.
+biochemistry,BIOCHEMISTRY,GLUCOSE CHALLENGE TEST (GCT),Measures blood glucose response; used in diabetes screening.
+biochemistry,BIOCHEMISTRY,GTT-GLUCOSE TOLERANCE TEST 75 g,Measures blood glucose response; used in diabetes screening.
+biochemistry,BIOCHEMISTRY,HDL-CHOLESTEROL,Lipid test; assesses cardiovascular risk profile.
+biochemistry,BIOCHEMISTRY,IRON PROFILE TEST,Iron study; assesses iron metabolism and anemia status.
+biochemistry,BIOCHEMISTRY,IRON SATURATION %,Iron study; assesses iron metabolism and anemia status.
+biochemistry,BIOCHEMISTRY,LDH(SERUM),Diagnostic biochemical test; evaluates metabolic or organ function.
+biochemistry,BIOCHEMISTRY,LDL-CHOLESTEROL,Lipid test; assesses cardiovascular risk profile.
+biochemistry,BIOCHEMISTRY,LDL-HDL RATIO,Lipid test; assesses cardiovascular risk profile.
+biochemistry,BIOCHEMISTRY,"LIPASE, SERUM",Diagnostic biochemical test; evaluates metabolic or organ function.
+biochemistry,BIOCHEMISTRY,LIPID PROFILE,Lipid test; assesses cardiovascular risk profile.
+biochemistry,BIOCHEMISTRY,"LITHIUM, SERUM",Diagnostic biochemical test; evaluates metabolic or organ function.
+biochemistry,BIOCHEMISTRY,LIVER FUNCTION TEST (LFT),Liver function test; evaluates hepatic health.
+biochemistry,BIOCHEMISTRY,"MAGNESIUM, SERUM",Electrolyte test; evaluates fluid balance and metabolism.
+biochemistry,BIOCHEMISTRY,MICROALBUMIN IN URINE,Analyzes urinary levels; used for kidney or metabolic assessment.
+biochemistry,BIOCHEMISTRY,NON-HDL CHOLESTEROL,Lipid test; assesses cardiovascular risk profile.
+biochemistry,BIOCHEMISTRY,NT-pro BNP,Cardiac marker; used in diagnosis of heart disease.
+biochemistry,BIOCHEMISTRY,O HRS PERITONEAL FLUID SAMPLE,Analyzes biochemical parameters in body fluid; aids diagnosis.
+biochemistry,BIOCHEMISTRY,ORAL GLUCOSE TOLERANCE TEST (OGTT 100 g),Measures blood glucose response; used in diabetes screening.
+biochemistry,BIOCHEMISTRY,OSMOLALITY TEST IN SERUM,Measures osmolality; evaluates hydration and kidney function.
+biochemistry,BIOCHEMISTRY,OSMOLALITY TEST IN URINE,Analyzes urinary levels; used for kidney or metabolic assessment.
+biochemistry,BIOCHEMISTRY,OVERNIGHT PERITONEAL FLUID SAMPLE,Analyzes biochemical parameters in body fluid; aids diagnosis.
+biochemistry,BIOCHEMISTRY,PERICARDIAL FLUID FOR LDH,Analyzes biochemical parameters in body fluid; aids diagnosis.
+biochemistry,BIOCHEMISTRY,PET ADEQUACY TEST (PERITONEAL EQUILIBRIUM) A-G,Diagnostic biochemical test; evaluates metabolic or organ function.
+biochemistry,BIOCHEMISTRY,PET TEST (PERITONEAL EQUILIBRIUM) C-G,Diagnostic biochemical test; evaluates metabolic or organ function.
+biochemistry,BIOCHEMISTRY,PHOSPHORUS,Electrolyte test; evaluates fluid balance and metabolism.
+biochemistry,BIOCHEMISTRY,PLEURAL FLUID FOR ALBUMIN,Analyzes biochemical parameters in body fluid; aids diagnosis.
+biochemistry,BIOCHEMISTRY,PLEURAL FLUID FOR GLUCOSE,Measures blood glucose response; used in diabetes screening.
+biochemistry,BIOCHEMISTRY,PLEURAL FLUID FOR LDH,Analyzes biochemical parameters in body fluid; aids diagnosis.
+biochemistry,BIOCHEMISTRY,PLEURAL FLUID FOR PROTEIN,Analyzes biochemical parameters in body fluid; aids diagnosis.
+biochemistry,BIOCHEMISTRY,POST DINNER BLOOD SUGAR,Diagnostic biochemical test; evaluates metabolic or organ function.
+biochemistry,BIOCHEMISTRY,POST LUNCH BLOOD SUGAR,Diagnostic biochemical test; evaluates metabolic or organ function.
+biochemistry,BIOCHEMISTRY,POST-HAEMODIALYSIS TEST,Diagnostic biochemical test; evaluates metabolic or organ function.
+biochemistry,BIOCHEMISTRY,POTASSIUM,Electrolyte test; evaluates fluid balance and metabolism.
+biochemistry,BIOCHEMISTRY,PRE DINNER BLOOD SUGAR,Diagnostic biochemical test; evaluates metabolic or organ function.
+biochemistry,BIOCHEMISTRY,PRE LUNCH BLOOD SUGAR,Diagnostic biochemical test; evaluates metabolic or organ function.
+biochemistry,BIOCHEMISTRY,PRE-HAEMODIALYSIS TEST,Diagnostic biochemical test; evaluates metabolic or organ function.
+biochemistry,BIOCHEMISTRY,PROCALCITONIN,Diagnostic biochemical test; evaluates metabolic or organ function.
+biochemistry,BIOCHEMISTRY,RA-FACTOR (QUANTITATIVE),Immunological marker; used in inflammation or autoimmune disease.
+biochemistry,BIOCHEMISTRY,RENAL FUNCTION TEST (KFT),Diagnostic biochemical test; evaluates metabolic or organ function.
+biochemistry,BIOCHEMISTRY,SERUM ALBUMIN,"Measures albumin levels; evaluates liver, kidney, or nutrition status."
+biochemistry,BIOCHEMISTRY,SERUM AMYLASE,Diagnostic biochemical test; evaluates metabolic or organ function.
+biochemistry,BIOCHEMISTRY,SERUM ASCITES ALBUMIN GRADIENT,"Measures albumin levels; evaluates liver, kidney, or nutrition status."
+biochemistry,BIOCHEMISTRY,"SERUM BILIRUBIN (TOTAL, DIRECT & INDIRECT)",Measures bilirubin; assesses liver and bile duct function.
+biochemistry,BIOCHEMISTRY,SERUM CALCIUM,Electrolyte test; evaluates fluid balance and metabolism.
+biochemistry,BIOCHEMISTRY,SERUM CREATININE,Measures creatinine; assesses kidney function.
+biochemistry,BIOCHEMISTRY,SERUM IRON,Iron study; assesses iron metabolism and anemia status.
+biochemistry,BIOCHEMISTRY,SERUM UREA,Measures urea nitrogen; evaluates kidney function.
+biochemistry,BIOCHEMISTRY,SGOT,Liver function test; evaluates hepatic health.
+biochemistry,BIOCHEMISTRY,SODIUM,Electrolyte test; evaluates fluid balance and metabolism.
+biochemistry,BIOCHEMISTRY,SODIUM(Na+) & POTASSIUM (K+),Electrolyte test; evaluates fluid balance and metabolism.
+biochemistry,BIOCHEMISTRY,SPOT PROTEIN CREATININE RATIO (PCR),Measures creatinine; assesses kidney function.
+biochemistry,BIOCHEMISTRY,SYNOVIAL FLUID FOR GLUCOSE,Measures blood glucose response; used in diabetes screening.
+biochemistry,BIOCHEMISTRY,SYNOVIAL FLUID FOR LDH,Analyzes biochemical parameters in body fluid; aids diagnosis.
+biochemistry,BIOCHEMISTRY,SYNOVIAL FLUID FOR PROTEIN,Analyzes biochemical parameters in body fluid; aids diagnosis.
+biochemistry,BIOCHEMISTRY,TOTAL CHOLESTEROL,Lipid test; assesses cardiovascular risk profile.
+biochemistry,BIOCHEMISTRY,TOTAL CHOLESTEROL/HDL,Lipid test; assesses cardiovascular risk profile.
+biochemistry,BIOCHEMISTRY,TOTAL IRON BINDING CAPACITY,Iron study; assesses iron metabolism and anemia status.
+biochemistry,BIOCHEMISTRY,TOTAL PROTEIN,"Measures protein levels; indicates renal, hepatic, or inflammatory disorders."
+biochemistry,BIOCHEMISTRY,TRIGLYCERIDE,Lipid test; assesses cardiovascular risk profile.
+biochemistry,BIOCHEMISTRY,TROPONIN I QUALITATIVE,Cardiac marker; used in diagnosis of heart disease.
+biochemistry,BIOCHEMISTRY,TROPONIN I QUANTITATIVE,Cardiac marker; used in diagnosis of heart disease.
+biochemistry,BIOCHEMISTRY,UNSATURATED IRON BINDING CAPACITY (UIBC),Iron study; assesses iron metabolism and anemia status.
+biochemistry,BIOCHEMISTRY,URIC ACID,Diagnostic biochemical test; evaluates metabolic or organ function.
+biochemistry,BIOCHEMISTRY,URINARY CALCIUM (SPOT),Analyzes urinary levels; used for kidney or metabolic assessment.
+biochemistry,BIOCHEMISTRY,URINARY CHLORIDE,Analyzes urinary levels; used for kidney or metabolic assessment.
+biochemistry,BIOCHEMISTRY,URINARY MAGNESIUM,Analyzes urinary levels; used for kidney or metabolic assessment.
+biochemistry,BIOCHEMISTRY,URINARY PHOSPHORUS,Analyzes urinary levels; used for kidney or metabolic assessment.
+biochemistry,BIOCHEMISTRY,URINARY POTASSIUM,Analyzes urinary levels; used for kidney or metabolic assessment.
+biochemistry,BIOCHEMISTRY,URINARY PROTEIN,Analyzes urinary levels; used for kidney or metabolic assessment.
+biochemistry,BIOCHEMISTRY,URINARY SODIUM,Analyzes urinary levels; used for kidney or metabolic assessment.
+biochemistry,BIOCHEMISTRY,URINE CREATININE (spot),Analyzes urinary levels; used for kidney or metabolic assessment.
+biochemistry,BIOCHEMISTRY,URINE UREA(spot),Analyzes urinary levels; used for kidney or metabolic assessment.
+biochemistry,BIOCHEMISTRY,VLDL,Lipid test; assesses cardiovascular risk profile.
+blood-bank,BLOOD BANK,ANTI D TITER (ICT),Indirect Coombs Test to measure anti-D antibodies; important in Rh incompatibility.
+blood-bank,BLOOD BANK,BLOOD BANK-GOKARNESHWOR NAGARPALIKA,Blood bank service linked with Gokarneshwor municipality for blood storage and supply.
+blood-bank,BLOOD BANK,BLOOD GROUP (GEL CARD METHOD),Determines blood group using gel card agglutination method.
+blood-bank,BLOOD BANK,BLOOD RETURN BETWEEN 3 TO 4 DAYS,Policy/procedure for returning unused blood within 3â€“4 days.
+blood-bank,BLOOD BANK,BLOOD RETURN BETWEEN 4 TO 7 DAYS,Policy/procedure for returning unused blood within 4â€“7 days.
+blood-bank,BLOOD BANK,BLOOD RETURN WITHIN 3 DAYS,Policy/procedure for returning unused blood within 3 days.
+blood-bank,BLOOD BANK,CROSS MATCH,Compatibility testing between donor and recipient blood before transfusion.
+blood-bank,BLOOD BANK,CRYOPRECIPITATE,"Blood component rich in clotting factors (fibrinogen, factor VIII, vWF)."
+blood-bank,BLOOD BANK,DIRECT COOMBS TEST (DCT),Detects antibodies bound directly to red blood cells; used in hemolysis evaluation.
+blood-bank,BLOOD BANK,FFP-BLOOD BANK,Fresh Frozen Plasma; used for clotting disorders and plasma replacement.
+blood-bank,BLOOD BANK,INDIRECT COOMBS TEST (ICT),Detects free antibodies in serum against red blood cells; used in transfusion testing.
+blood-bank,BLOOD BANK,PACKED RBC (PRBC)-BLOOD BANK,Red cell component of blood used in treating anemia and blood loss.
+blood-bank,BLOOD BANK,PHLEBOTOMY,Bloodletting procedure; therapeutic removal of blood in conditions like polycythemia.
+blood-bank,BLOOD BANK,PLATELET CONCENTRATE - BLOOD BANK,Platelet product used in patients with low platelet count or bleeding disorders.
+blood-bank,BLOOD BANK,PRP-BLOOD BANK,Platelet-rich plasma prepared and stored in blood bank.
+blood-bank,BLOOD BANK,REVERSE BLOOD GROUP,Back typing; confirms blood group by checking for antibodies in patient serum.
+blood-bank,BLOOD BANK,TRANSFUSION-SET,Special set used for safe administration of blood or components.
+blood-bank,BLOOD BANK,WHOLE BLOOD-BLOOD BANK,Whole blood unit stored and provided by the blood bank for transfusion.
