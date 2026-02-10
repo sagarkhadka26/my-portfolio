@@ -5,7 +5,7 @@
 
 /* CSS Custom Properties */
 :root {
-  --bg-cream: #FDF5E4;
+  --bg-cream: #F9F4E8;
   --text-dark: #1a1a1a;
   --text-light: #666666;
   --white: #ffffff;
@@ -57,10 +57,9 @@ body {
   color: var(--text-dark);
   line-height: 1.6;
   overflow-x: hidden;
-  cursor: url('../assets/images/main-cursor.png'), auto;
+  cursor: none;
 }
 
-/* Native cursor for interactive elements */
 /* Hide default cursor on all elements */
 *,
 *::before,
@@ -68,14 +67,41 @@ body {
   cursor: none !important;
 }
 
-/* Native cursor for interactive elements - use pointer image */
-a,
-button,
-[role="button"],
-input,
-textarea,
-select {
-  cursor: none !important;
+/* Custom Cursor Styles - Professional */
+.custom-cursor {
+  width: 20px;
+  height: 20px;
+  position: fixed;
+  pointer-events: none;
+  z-index: 10000;
+  border: 2px solid var(--black);
+  border-radius: 50%;
+  transition: transform 0.15s ease, width 0.2s ease, height 0.2s ease;
+  mix-blend-mode: difference;
+}
+
+.custom-cursor.hover {
+  width: 40px;
+  height: 40px;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-color: var(--black);
+}
+
+.custom-cursor.clicking {
+  transform: scale(0.8);
+}
+
+.cursor-dot {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 6px;
+  height: 6px;
+  background-color: var(--black);
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 9999;
+  transition: transform 0.1s ease;
 }
 
 a {
@@ -101,34 +127,14 @@ button {
   background: none;
 }
 
-/* Custom Cursor Styles */
-.custom-cursor {
-  width: 38px;
-  height: 38px;
+#sparkle-canvas {
   position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
   pointer-events: none;
-  z-index: 10000;
-  background-image: url('../assets/images/main-cursor.png');
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  transition: transform 0.15s ease;
-}
-
-/* Hover state - switch to pointer cursor */
-.custom-cursor.hover {
-  background-image: url('../assets/images/cursor-pointer.cur') !important;
-  transform: scale(1.2);
-}
-
-/* Clicking state */
-.custom-cursor.clicking {
-  transform: scale(0.9);
-}
-
-/* Hide the cursor dot - we don't need it with custom images */
-.cursor-dot {
-  display: none !important;
+  z-index: 9997;
 }
 
 /* Sparkle canvas */
