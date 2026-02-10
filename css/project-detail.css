@@ -248,7 +248,7 @@
     align-items: center !important;
     gap: 12px;
     background: var(--black, #1a1a1a) !important;
-    color: #000000 !important;
+    color: #fff !important;
     padding: 16px 32px !important;
     border-radius: 50px !important;
     text-decoration: none !important;
