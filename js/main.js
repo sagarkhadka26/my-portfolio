@@ -3,9 +3,6 @@
    ======================================== */
 
 // Import modules
-import './loader.js';
-import './cursor.js';
-import './animations.js';
 import { projects } from './projects.js';
 import { resumeData } from './resumeData.js';
 import { Header, Footer } from './components.js';
