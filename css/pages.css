@@ -157,11 +157,11 @@
         margin: 0 auto;
     }
 
-    .speech-bubble {
+    /* .speech-bubble {
         position: absolute;
         width: max-content;
         max-width: 200px;
-    }
+    } */
 
     #bubble-1 {
         top: -20px;
@@ -180,7 +180,7 @@
 }
 
 /* Speech Bubble */
-.speech-bubble {
+/* .speech-bubble {
     position: absolute;
     top: 10%;
     right: 5%;
@@ -195,14 +195,14 @@
     box-shadow: 4px 4px 0px var(--black);
     opacity: 0;
     transform-origin: bottom left;
-}
+} */
 
 .speech-bubble.active {
     animation: pop-in 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
 }
 
 /* Speech Bubble Tail */
-.speech-bubble::after {
+/* .speech-bubble::after {
     content: '';
     position: absolute;
     bottom: -10px;
@@ -225,9 +225,9 @@
     border-right: 8px solid transparent;
     border-top: 8px solid var(--white);
     z-index: 1;
-}
+} */
 
-/* Position Overrides */
+/* Position Overrides
 .bubble-right-top {
     top: 5%;
     right: 30px;
@@ -240,7 +240,7 @@
 }
 
 /* Flip tail for left bubble */
-.bubble-left::after {
+/* .bubble-left::after {
     left: auto;
     right: 20px;
 }
@@ -265,7 +265,7 @@
         opacity: 1;
         transform: scale(1) translateY(0);
     }
-}
+} */
 
 /* ========================================
    Works Section (Home + Work Page)
