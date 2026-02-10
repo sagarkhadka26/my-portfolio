@@ -3,66 +3,6 @@
    ======================================== */
 
 /* ========================================
-   Avatar Animation
-   ======================================== */
-/* ========================================
-   Avatar Sprite Animation
-   7 frames | 420 × 575 px each
-   Wave plays once, waits 7s, repeats
-   ======================================== */
-
-/* Hand wave (sprite animation) */
-@keyframes avatar-cycle {
-    0% {
-        background-position: 0 0;
-    }
-
-    /* Wave animation (2s of a 9s cycle) */
-    22% {
-        background-position: -2520px 0;
-        /* 420 × (7 − 1) */
-    }
-
-    /* Idle pause (7s) */
-    22.01%,
-    100% {
-        background-position: 0 0;
-    }
-}
-
-/* Subtle life motion */
-@keyframes gentle-float {
-
-    0%,
-    100% {
-        transform: translateY(0);
-    }
-
-    50% {
-        transform: translateY(-6px);
-    }
-}
-
-/* Avatar element */
-.avatar-animated {
-    width: 420px;
-    height: 575px;
-
-    background-image: url("/images/avatar-sprite.png");
-    /* UPDATE PATH */
-    background-repeat: no-repeat;
-    background-size: 2940px 575px;
-    /* 420 × 7 */
-
-    animation:
-        avatar-cycle 9s steps(7) infinite,
-        gentle-float 6s ease-in-out infinite;
-
-    transform-origin: bottom center;
-}
-
-
-/* ========================================
    Scroll Animations
    ======================================== */
 .fade-in {
@@ -196,10 +136,7 @@
 }
 
 /* ========================================
-   Custom Cursor
-   ======================================== */
-/* ========================================
-   Custom Cursor - Professional
+   Custom Cursor - Minimal Style
    ======================================== */
 .custom-cursor {
     position: fixed;
@@ -211,7 +148,7 @@
     border-radius: 50%;
     pointer-events: none;
     z-index: 10000;
-    transition: transform 0.15s ease, width 0.2s ease, height 0.2s ease;
+    transition: transform 0.15s ease, width 0.2s ease, height 0.2s ease, opacity 0.3s ease;
     mix-blend-mode: difference;
 }
 
@@ -238,27 +175,6 @@
     transition: transform 0.1s ease;
 }
 
-#sparkle-canvas {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    pointer-events: none;
-    z-index: 9997;
-}
-
-/* Sparkle canvas */
-#sparkle-canvas {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    pointer-events: none;
-    z-index: 9997;
-}
-
 /* ========================================
    Text Animations
    ======================================== */
@@ -266,21 +182,16 @@
     from {
         width: 0;
     }
-
     to {
         width: 100%;
     }
 }
 
 @keyframes blink {
-
-    0%,
-    50% {
+    0%, 50% {
         border-color: transparent;
     }
-
-    51%,
-    100% {
+    51%, 100% {
         border-color: var(--black);
     }
 }
@@ -306,7 +217,6 @@
    Responsive Animations
    ======================================== */
 @media (prefers-reduced-motion: reduce) {
-
     *,
     *::before,
     *::after {

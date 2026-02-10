@@ -19,8 +19,6 @@ const injectComponents = () => {
 
     if (headerPlaceholder) {
         headerPlaceholder.innerHTML = Header();
-        // Unwrap the div to avoid extra container if needed, but innerHTML is safer for layout 
-        // unless the CSS specifically target the placeholder ID.
     }
     if (footerPlaceholder) {
         footerPlaceholder.innerHTML = Footer();
@@ -44,8 +42,7 @@ class ProjectGallery {
         // Clear container
         this.container.innerHTML = '';
 
-        // If on home page, maybe only show recent 6? 
-        // For now, consistent with what was there, we show all or limit.
+        // Show all projects or limit to 6 on homepage
         const projectsToShow = this.isHomePage ? projects.slice(0, 6) : projects;
 
         projectsToShow.forEach(project => {
@@ -114,9 +111,6 @@ class ResumeTimeline {
         }
     }
 }
-
-// Styling for this project is now handled via <link> tags in HTML files
-// to prevent Flash of Unstyled Content (FOUC).
 
 /* ========================================
    Navigation
@@ -199,7 +193,6 @@ class SmoothScroll {
             const href = anchor.getAttribute('href');
             if (!href || href === '#') return;
 
-            // Only handle internal anchors on the same page
             try {
                 const target = document.querySelector(href);
                 if (target) {
@@ -210,7 +203,6 @@ class SmoothScroll {
                     });
                 }
             } catch (err) {
-                // If querySelector fails (e.g. invalid selector), let browser handle it or ignore
                 console.warn('Invalid smooth scroll target:', href);
             }
         });
@@ -270,41 +262,37 @@ class PageTransition {
    Initialize Everything
    ======================================== */
 document.addEventListener('DOMContentLoaded', () => {
-    // 0. Initialize loader first (it handles the screen overlay)
+    // 1. Inject components first
+    injectComponents();
+
+    // 2. Initialize loader
     import('./loader.js').then(module => {
         const Loader = module.default;
         new Loader();
     });
 
-    // 1. Inject components
-    injectComponents();
-
-    // 2. Initialize navigation (handles active links and mobile menu)
+    // 3. Initialize navigation
     new Navigation();
 
-    // 3. Initialize scroll animations (now that header/footer are in DOM)
+    // 4. Initialize scroll animations
     import('./animations.js').then(module => {
         const ScrollAnimations = module.default;
         new ScrollAnimations();
     });
 
-    // 4. Initialize cursor
-    import('./cursor.js').then(module => {
-        const SparklesCursor = module.default;
-        new SparklesCursor();
-    });
+    // 5. Initialize minimal cursor (only on non-touch devices)
+    if (!('ontouchstart' in window)) {
+        import('./cursor.js').then(module => {
+            const MinimalCursor = module.default;
+            new MinimalCursor();
+        });
+    }
 
-    // 5. Initialize other misc utilities
+    // 6. Initialize other utilities
     new SmoothScroll();
     new PageTransition();
     new ProjectGallery();
     new ResumeTimeline();
-
-    // 6. Initialize Speech Bubble Sequence
-    import('./speech.js').then(module => {
-        const SpeechHandler = module.default;
-        new SpeechHandler();
-    });
 
     console.log('🚀 Portfolio loaded successfully!');
 });

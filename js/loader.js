@@ -1,11 +1,11 @@
 /* ========================================
-   Loading Screen
+   Loading Screen - Minimal Version
    ======================================== */
 
 class Loader {
     constructor() {
         this.loader = null;
-        this.minimumDisplayTime = 800; // Minimum time to show loader
+        this.minimumDisplayTime = 500; // Reduced to 500ms
         this.startTime = Date.now();
 
         this.init();
@@ -17,10 +17,10 @@ class Loader {
             this.hide();
         });
 
-        // Fallback: hide after 3 seconds max
+        // Fallback: hide after 2 seconds max
         setTimeout(() => {
             this.hide();
-        }, 3000);
+        }, 2000);
     }
 
     hide() {
@@ -46,8 +46,5 @@ class Loader {
         }, remainingTime);
     }
 }
-
-// Initialize loader - MOVED TO main.js or handled there
-// new Loader();
 
 export default Loader;
