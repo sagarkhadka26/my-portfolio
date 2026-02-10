@@ -5,7 +5,33 @@
 /* ========================================
    Avatar Animation
    ======================================== */
-@keyframes float {
+/* ========================================
+   Avatar Sprite Animation
+   7 frames | 420 × 575 px each
+   Wave plays once, waits 7s, repeats
+   ======================================== */
+
+/* Hand wave (sprite animation) */
+@keyframes avatar-cycle {
+    0% {
+        background-position: 0 0;
+    }
+
+    /* Wave animation (2s of a 9s cycle) */
+    22% {
+        background-position: -2520px 0;
+        /* 420 × (7 − 1) */
+    }
+
+    /* Idle pause (7s) */
+    22.01%,
+    100% {
+        background-position: 0 0;
+    }
+}
+
+/* Subtle life motion */
+@keyframes gentle-float {
 
     0%,
     100% {
@@ -13,67 +39,28 @@
     }
 
     50% {
-        transform: translateY(-15px);
+        transform: translateY(-6px);
     }
 }
 
-@keyframes sway {
-
-    0%,
-    100% {
-        transform: rotate(-1deg);
-    }
-
-    50% {
-        transform: rotate(1deg);
-    }
-}
-
-
-
-/* 
-   Sprite Animation 
-   - 9 frames
-   - Play once, then pause
-   - Total cycle: ~3-4 seconds (e.g., 1s play + 2.5s pause)
-*/
-/* 
-   Sprite Animation 
-   - 9 frames
-   - Play for 2s, Pause for 2s
-   - Total cycle: 4s
-*/
-@keyframes avatar-cycle {
-    0% {
-        background-position: 0 0;
-    }
-
-    /* 
-       Play frames 1 to 9 over 2s (50% of 4s).
-    */
-    50% {
-        background-position: 100% 0;
-    }
-
-    /* Reset to Frame 1 for the 2s pause */
-    50.01% {
-        background-position: 0 0;
-    }
-
-    100% {
-        background-position: 0 0;
-    }
-}
-
+/* Avatar element */
 .avatar-animated {
-    /* 
-       - avatar-cycle: sprite animation (expression changes)
-       - float/sway removed to keep position static
-    */
-    animation: avatar-cycle 4s steps(8) infinite;
+    width: 420px;
+    height: 575px;
+
+    background-image: url("/images/avatar-sprite.png");
+    /* UPDATE PATH */
+    background-repeat: no-repeat;
+    background-size: 2940px 575px;
+    /* 420 × 7 */
+
+    animation:
+        avatar-cycle 9s steps(7) infinite,
+        gentle-float 6s ease-in-out infinite;
 
     transform-origin: bottom center;
 }
+
 
 /* ========================================
    Scroll Animations
@@ -211,40 +198,54 @@
 /* ========================================
    Custom Cursor
    ======================================== */
+/* ========================================
+   Custom Cursor - Professional
+   ======================================== */
 .custom-cursor {
     position: fixed;
     top: 0;
     left: 0;
-    width: 38px;
-    height: 38px;
-    background-image: url('../assets/images/main-cursor.png');
-    /* Fallback to cursor style if needed */
-    background-size: contain;
-    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    border: 2px solid var(--black);
+    border-radius: 50%;
     pointer-events: none;
     z-index: 10000;
-    transition: transform 0.1s ease;
+    transition: transform 0.15s ease, width 0.2s ease, height 0.2s ease;
+    mix-blend-mode: difference;
 }
 
-.custom-cursor.hover,
+.custom-cursor.hover {
+    width: 40px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
 .custom-cursor.clicking {
-    transform: scale(1.0);
-    background-image: url('../assets/images/cursor-pointer.cur');
+    transform: scale(0.8);
 }
 
-/* Cursor trail dot - we can hide it or keep it as a focal point */
 .cursor-dot {
     position: fixed;
     top: 0;
     left: 0;
     width: 6px;
     height: 6px;
-    background-color: var(--white);
+    background-color: var(--black);
     border-radius: 50%;
     pointer-events: none;
     z-index: 9999;
-    mix-blend-mode: difference;
-    transition: transform 0.08s ease;
+    transition: transform 0.1s ease;
+}
+
+#sparkle-canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 9997;
 }
 
 /* Sparkle canvas */
